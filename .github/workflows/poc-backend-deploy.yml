@@ -45,7 +45,7 @@ jobs:
       - name: Build Docker image
         run: |
           docker build \
-            -t ${{ vars.ACR_NAME }}.azurecr.io/${{ vars.IMAGE_NAME }}:${{ github.sha }} .
+            -t ${{ vars.ACR_NAME }}.azurecr.io/${{ vars.IMAGE_NAME }}:${{ env.REVISION }} .
 
       # Push Docker image to ACR
       - name: Push Docker image to ACR
