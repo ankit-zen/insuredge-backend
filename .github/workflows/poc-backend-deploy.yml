@@ -1,0 +1,64 @@
+# The name of the deployment
+name: POC Backend Deploy to Azure Container Apps
+
+# When this action will be executed
+on:
+  workflow_dispatch: 
+
+
+jobs:
+  # Job run image.
+  build:
+    runs-on: ubuntu-latest
+
+    env:
+      REVISION: poc-${{ github.run_number }}-${{ github.run_attempt }}
+
+    # Steps that need to happen in this job run.
+    steps:
+      # Check out the code
+      - name: Check out code
+        uses: actions/checkout@v2
+
+      # Set up Python environment
+      - name: Set up Python 3.12
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.12.4'
+
+      # Log in to Azure CLI
+      - name: Log in to Azure
+        uses: azure/login@v1
+        with:
+          # Azure CLI credentials
+          creds: ${{ secrets.AZURE_CREDENTIALS }}
+
+      # Set up Docker Buildx
+      - name: Set up Docker Buildx
+        uses: docker/setup-buildx-action@v2
+
+      # Log in to Azure Container Registry (ACR)
+      - name: Log in to Azure Container Registry
+        run: echo "${{ secrets.REGISTRY_PASSWORD }}" | docker login ${{ vars.ACR_NAME }}.azurecr.io -u ${{ vars.REGISTRY_USERNAME }} --password-stdin
+
+      # Build Docker image with environment variables passed as build arguments
+      - name: Build Docker image
+        run: |
+          docker build \
+            -t ${{ vars.ACR_NAME }}.azurecr.io/${{ vars.IMAGE_NAME }}:${{ github.sha }} .
+
+      # Push Docker image to ACR
+      - name: Push Docker image to ACR
+        run: |
+          docker push ${{ vars.ACR_NAME }}.azurecr.io/${{ vars.IMAGE_NAME }}:${{ env.REVISION }}
+
+      # Deploy to Azure Container Apps
+      - name: Deploy to Azure Container Apps
+        uses: azure/container-apps-deploy-action@v1
+        with:
+          acrName: ${{ vars.ACR_NAME }}
+          acrUsername: ${{ vars.REGISTRY_USERNAME }}
+          acrPassword: ${{ secrets.REGISTRY_PASSWORD }}
+          containerAppName: ${{ vars.CONTAINER_APP_NAME }}
+          resourceGroup: ${{ vars.AZURE_RESOURCE_GROUP }}
+          imageToDeploy: ${{ vars.ACR_NAME }}.azurecr.io/${{ vars.IMAGE_NAME }}:${{ env.REVISION }}
