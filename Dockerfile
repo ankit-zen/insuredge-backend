@@ -1,5 +1,5 @@
 # Use an official Python runtime as a parent image
-FROM python:3.11
+FROM python:3.12.4
 
 # Install dependencies required to build pyarrow
 RUN apt-get update && apt-get install -y \
