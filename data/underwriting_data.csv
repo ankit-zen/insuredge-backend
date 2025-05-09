@@ -1,0 +1,1001 @@
+applicationId,name,coverageType,underwritingStatus,riskAssessment,underwriterName,medicalUnderwritingStatus,finalPremium,policyApprovalStatus,medicalExamsRequired,riskAdjustment
+A34640,Clint Barton,Life,Declined,Medium,Underwriter_3,Not Required,$29354,Rejected,No,Increased premium due to high risk
+A10098,Bruce Banner,Term Life,Declined,Low,Underwriter_4,Completed,$23786,Pending,No,Standard premium
+A14444,Steve Rogers,Term Life,Declined,Low,Underwriter_1,Pending,$14428,Rejected,No,Standard premium
+A85195,Tony Stark,Critical Illness,Approved,Medium,Underwriter_5,Completed,$34216,Rejected,No,Standard premium
+A56811,Clint Barton,Life,Approved,Medium,Underwriter_2,Completed,$11910,Approved,Yes,Increased premium due to high risk
+A71740,Steve Rogers,Health,Approved,Medium,Underwriter_4,Pending,$11002,Pending,Yes,Increased premium due to high risk
+A95839,Steve Rogers,Health,Declined,Medium,Underwriter_5,Pending,$6252,Pending,No,Standard premium
+A18489,Tony Stark,Term Life,Approved,Medium,Underwriter_1,Completed,$38706,Pending,No,Increased premium due to high risk
+A65933,Steve Rogers,Life,Declined,Medium,Underwriter_5,Not Required,$49975,Approved,Yes,Increased premium due to high risk
+A60906,Natasha Romanoff,Life,Approved,High,Underwriter_4,Not Required,$32000,Approved,No,Standard premium
+A99662,Bruce Banner,Critical Illness,Pending,High,Underwriter_4,Pending,$28395,Pending,Yes,Standard premium
+A67064,Natasha Romanoff,Life,Approved,High,Underwriter_5,Completed,$20312,Approved,Yes,Increased premium due to high risk
+A14378,Bruce Banner,Term Life,Approved,Low,Underwriter_2,Pending,$41486,Approved,No,Increased premium due to high risk
+A52161,Natasha Romanoff,Life,Pending,High,Underwriter_5,Completed,$43801,Pending,Yes,Increased premium due to high risk
+A74660,Clint Barton,Life,Declined,High,Underwriter_5,Completed,$6289,Pending,No,Increased premium due to high risk
+A79711,Steve Rogers,Life,Pending,Low,Underwriter_2,Pending,$5224,Pending,Yes,Increased premium due to high risk
+A83830,Bruce Banner,Critical Illness,Declined,High,Underwriter_1,Pending,$44748,Approved,No,Standard premium
+A12544,Natasha Romanoff,Term Life,Approved,Medium,Underwriter_2,Not Required,$8791,Approved,No,Standard premium
+A56154,Bruce Banner,Critical Illness,Pending,High,Underwriter_3,Pending,$37253,Pending,No,Increased premium due to high risk
+A90130,Steve Rogers,Health,Approved,Medium,Underwriter_3,Not Required,$43517,Pending,No,Increased premium due to high risk
+A63457,Natasha Romanoff,Life,Declined,Low,Underwriter_4,Pending,$26465,Rejected,No,Standard premium
+A95730,Steve Rogers,Life,Approved,High,Underwriter_1,Not Required,$23602,Rejected,No,Increased premium due to high risk
+A17817,Steve Rogers,Critical Illness,Declined,High,Underwriter_2,Completed,$27846,Pending,No,Standard premium
+A83597,Clint Barton,Health,Approved,Medium,Underwriter_1,Pending,$42992,Approved,No,Increased premium due to high risk
+A26777,Natasha Romanoff,Health,Approved,Low,Underwriter_2,Pending,$6102,Approved,No,Increased premium due to high risk
+A49834,Natasha Romanoff,Life,Pending,Medium,Underwriter_3,Not Required,$34926,Approved,Yes,Standard premium
+A38881,Steve Rogers,Critical Illness,Pending,Medium,Underwriter_1,Not Required,$43814,Pending,Yes,Standard premium
+A46615,Clint Barton,Critical Illness,Approved,Low,Underwriter_2,Completed,$48729,Approved,No,Standard premium
+A47402,Steve Rogers,Health,Declined,Medium,Underwriter_1,Pending,$31959,Rejected,No,Increased premium due to high risk
+A83565,Natasha Romanoff,Life,Declined,Medium,Underwriter_5,Completed,$17992,Rejected,No,Standard premium
+A36656,Bruce Banner,Critical Illness,Approved,Low,Underwriter_3,Not Required,$12350,Approved,Yes,Increased premium due to high risk
+A96605,Tony Stark,Term Life,Approved,Low,Underwriter_2,Not Required,$30601,Pending,No,Standard premium
+A27444,Steve Rogers,Life,Declined,Medium,Underwriter_3,Not Required,$22500,Pending,No,Standard premium
+A32831,Natasha Romanoff,Health,Pending,Medium,Underwriter_5,Not Required,$42060,Approved,No,Increased premium due to high risk
+A94506,Natasha Romanoff,Term Life,Approved,Low,Underwriter_1,Not Required,$14245,Approved,Yes,Standard premium
+A78332,Clint Barton,Term Life,Declined,Medium,Underwriter_1,Completed,$36437,Approved,No,Increased premium due to high risk
+A41306,Steve Rogers,Life,Approved,High,Underwriter_4,Completed,$21372,Approved,Yes,Increased premium due to high risk
+A14802,Tony Stark,Life,Approved,High,Underwriter_1,Not Required,$25104,Rejected,Yes,Standard premium
+A39129,Natasha Romanoff,Health,Pending,High,Underwriter_4,Pending,$34879,Rejected,No,Standard premium
+A76691,Clint Barton,Term Life,Declined,Medium,Underwriter_4,Not Required,$46367,Approved,Yes,Increased premium due to high risk
+A41473,Natasha Romanoff,Life,Approved,Medium,Underwriter_2,Not Required,$10279,Approved,Yes,Increased premium due to high risk
+A84669,Clint Barton,Critical Illness,Declined,Low,Underwriter_5,Completed,$27637,Approved,Yes,Standard premium
+A18676,Steve Rogers,Critical Illness,Declined,Medium,Underwriter_5,Completed,$31678,Pending,No,Standard premium
+A91440,Steve Rogers,Life,Pending,Low,Underwriter_4,Not Required,$24382,Rejected,Yes,Standard premium
+A41764,Clint Barton,Critical Illness,Pending,Medium,Underwriter_3,Not Required,$40015,Approved,Yes,Increased premium due to high risk
+A72656,Steve Rogers,Critical Illness,Declined,Medium,Underwriter_5,Pending,$39362,Approved,No,Standard premium
+A78445,Steve Rogers,Health,Declined,High,Underwriter_3,Completed,$36053,Pending,Yes,Increased premium due to high risk
+A57753,Bruce Banner,Health,Declined,High,Underwriter_1,Completed,$24353,Pending,Yes,Standard premium
+A99061,Clint Barton,Life,Approved,High,Underwriter_1,Completed,$36103,Pending,Yes,Standard premium
+A53739,Clint Barton,Critical Illness,Pending,Low,Underwriter_1,Completed,$31484,Approved,Yes,Standard premium
+A11247,Bruce Banner,Critical Illness,Declined,Low,Underwriter_4,Not Required,$46127,Pending,Yes,Standard premium
+A88376,Steve Rogers,Life,Pending,Medium,Underwriter_2,Not Required,$27737,Pending,Yes,Increased premium due to high risk
+A10791,Natasha Romanoff,Term Life,Pending,High,Underwriter_1,Pending,$32244,Pending,Yes,Increased premium due to high risk
+A65910,Bruce Banner,Term Life,Declined,Medium,Underwriter_4,Completed,$19426,Approved,Yes,Standard premium
+A91255,Tony Stark,Health,Approved,Medium,Underwriter_4,Not Required,$18615,Rejected,Yes,Increased premium due to high risk
+A68038,Clint Barton,Life,Declined,High,Underwriter_5,Completed,$38751,Pending,Yes,Increased premium due to high risk
+A10013,Clint Barton,Life,Pending,High,Underwriter_5,Completed,$27804,Approved,No,Standard premium
+A30315,Bruce Banner,Term Life,Declined,Medium,Underwriter_1,Completed,$20027,Rejected,Yes,Standard premium
+A61793,Natasha Romanoff,Life,Approved,High,Underwriter_5,Completed,$43834,Rejected,No,Standard premium
+A95529,Bruce Banner,Term Life,Pending,Medium,Underwriter_2,Pending,$24083,Pending,Yes,Standard premium
+A64827,Tony Stark,Critical Illness,Pending,Low,Underwriter_1,Completed,$49743,Rejected,No,Standard premium
+A81359,Steve Rogers,Critical Illness,Pending,Medium,Underwriter_1,Pending,$49433,Pending,No,Standard premium
+A79277,Clint Barton,Critical Illness,Declined,Medium,Underwriter_2,Completed,$42187,Pending,No,Standard premium
+A86355,Clint Barton,Critical Illness,Declined,Low,Underwriter_4,Pending,$28260,Pending,Yes,Standard premium
+A35558,Clint Barton,Term Life,Declined,Medium,Underwriter_3,Not Required,$16791,Rejected,Yes,Standard premium
+A48172,Steve Rogers,Term Life,Pending,Medium,Underwriter_1,Pending,$11273,Pending,No,Increased premium due to high risk
+A55455,Steve Rogers,Health,Pending,Low,Underwriter_3,Pending,$17081,Approved,Yes,Increased premium due to high risk
+A84103,Steve Rogers,Critical Illness,Pending,High,Underwriter_1,Completed,$39480,Rejected,No,Standard premium
+A55450,Clint Barton,Term Life,Pending,High,Underwriter_5,Not Required,$39228,Rejected,No,Increased premium due to high risk
+A61657,Clint Barton,Life,Pending,High,Underwriter_5,Not Required,$34401,Approved,Yes,Standard premium
+A35586,Steve Rogers,Life,Approved,Low,Underwriter_3,Not Required,$38140,Approved,No,Increased premium due to high risk
+A42470,Tony Stark,Health,Pending,Low,Underwriter_5,Completed,$38386,Pending,Yes,Increased premium due to high risk
+A22192,Tony Stark,Term Life,Approved,Medium,Underwriter_4,Completed,$21410,Approved,No,Standard premium
+A25324,Natasha Romanoff,Critical Illness,Approved,High,Underwriter_1,Not Required,$10506,Rejected,No,Standard premium
+A91101,Clint Barton,Critical Illness,Pending,High,Underwriter_1,Completed,$35704,Rejected,No,Standard premium
+A72086,Tony Stark,Health,Approved,High,Underwriter_2,Completed,$11597,Rejected,No,Standard premium
+A84938,Natasha Romanoff,Life,Declined,Low,Underwriter_1,Completed,$40892,Approved,No,Standard premium
+A66560,Clint Barton,Term Life,Pending,Low,Underwriter_5,Not Required,$8586,Rejected,Yes,Standard premium
+A58390,Steve Rogers,Term Life,Approved,Low,Underwriter_3,Not Required,$19049,Pending,Yes,Increased premium due to high risk
+A83616,Clint Barton,Health,Approved,Low,Underwriter_3,Completed,$21002,Approved,No,Standard premium
+A82620,Tony Stark,Health,Declined,Medium,Underwriter_2,Pending,$45386,Approved,Yes,Standard premium
+A16831,Tony Stark,Health,Declined,Medium,Underwriter_2,Pending,$12726,Pending,Yes,Increased premium due to high risk
+A58704,Bruce Banner,Health,Declined,Low,Underwriter_2,Not Required,$34938,Approved,Yes,Standard premium
+A86864,Natasha Romanoff,Health,Approved,Low,Underwriter_3,Not Required,$22934,Pending,No,Standard premium
+A66236,Natasha Romanoff,Critical Illness,Approved,Low,Underwriter_1,Not Required,$42772,Rejected,Yes,Standard premium
+A95283,Tony Stark,Health,Approved,High,Underwriter_1,Not Required,$10508,Pending,No,Increased premium due to high risk
+A95938,Steve Rogers,Term Life,Approved,High,Underwriter_4,Not Required,$32360,Approved,Yes,Increased premium due to high risk
+A76088,Tony Stark,Life,Pending,High,Underwriter_1,Completed,$39280,Approved,No,Standard premium
+A72877,Bruce Banner,Term Life,Declined,High,Underwriter_4,Completed,$25288,Approved,No,Standard premium
+A24969,Steve Rogers,Term Life,Pending,Medium,Underwriter_1,Completed,$9580,Pending,No,Standard premium
+A43513,Tony Stark,Critical Illness,Declined,Low,Underwriter_5,Pending,$47042,Rejected,No,Increased premium due to high risk
+A18590,Tony Stark,Life,Approved,Low,Underwriter_5,Completed,$24182,Pending,No,Increased premium due to high risk
+A37375,Bruce Banner,Term Life,Approved,Low,Underwriter_1,Completed,$9503,Pending,Yes,Standard premium
+A28940,Tony Stark,Critical Illness,Declined,Low,Underwriter_1,Pending,$5157,Approved,Yes,Increased premium due to high risk
+A86363,Bruce Banner,Critical Illness,Declined,High,Underwriter_3,Pending,$14249,Approved,No,Standard premium
+A16025,Natasha Romanoff,Health,Pending,High,Underwriter_4,Pending,$31745,Approved,No,Standard premium
+A34715,Tony Stark,Life,Pending,High,Underwriter_5,Completed,$13164,Pending,Yes,Increased premium due to high risk
+A36869,Bruce Banner,Term Life,Pending,Medium,Underwriter_1,Completed,$40838,Rejected,No,Increased premium due to high risk
+A63124,Bruce Banner,Critical Illness,Pending,High,Underwriter_2,Completed,$26227,Pending,Yes,Standard premium
+A61190,Natasha Romanoff,Term Life,Approved,Low,Underwriter_2,Completed,$41545,Pending,Yes,Increased premium due to high risk
+A78880,Clint Barton,Term Life,Declined,High,Underwriter_1,Completed,$26878,Approved,Yes,Standard premium
+A91551,Natasha Romanoff,Critical Illness,Approved,High,Underwriter_4,Not Required,$5054,Approved,No,Standard premium
+A67246,Natasha Romanoff,Term Life,Approved,High,Underwriter_4,Pending,$13000,Pending,Yes,Increased premium due to high risk
+A29602,Steve Rogers,Term Life,Declined,High,Underwriter_1,Completed,$48851,Rejected,No,Standard premium
+A38677,Bruce Banner,Health,Declined,High,Underwriter_1,Not Required,$46142,Rejected,Yes,Standard premium
+A18413,Natasha Romanoff,Term Life,Approved,High,Underwriter_2,Not Required,$19544,Approved,Yes,Standard premium
+A27683,Tony Stark,Critical Illness,Declined,Medium,Underwriter_4,Pending,$32056,Pending,No,Standard premium
+A26336,Clint Barton,Life,Declined,High,Underwriter_3,Not Required,$36505,Approved,No,Standard premium
+A43362,Clint Barton,Health,Declined,High,Underwriter_1,Not Required,$29359,Pending,Yes,Standard premium
+A81910,Natasha Romanoff,Health,Approved,Low,Underwriter_3,Pending,$49662,Pending,Yes,Increased premium due to high risk
+A89182,Natasha Romanoff,Health,Approved,High,Underwriter_4,Pending,$36133,Pending,No,Increased premium due to high risk
+A88291,Steve Rogers,Health,Approved,High,Underwriter_4,Completed,$25432,Approved,No,Increased premium due to high risk
+A49858,Steve Rogers,Health,Pending,Medium,Underwriter_4,Completed,$25494,Approved,Yes,Standard premium
+A60653,Clint Barton,Life,Declined,Medium,Underwriter_4,Pending,$18453,Pending,No,Increased premium due to high risk
+A24536,Tony Stark,Life,Pending,High,Underwriter_2,Not Required,$49097,Rejected,Yes,Increased premium due to high risk
+A60371,Natasha Romanoff,Critical Illness,Declined,Low,Underwriter_3,Pending,$16094,Pending,Yes,Standard premium
+A23467,Steve Rogers,Term Life,Declined,Low,Underwriter_4,Pending,$42772,Pending,No,Standard premium
+A49269,Clint Barton,Critical Illness,Declined,Medium,Underwriter_1,Completed,$25508,Rejected,No,Standard premium
+A32058,Steve Rogers,Critical Illness,Pending,Medium,Underwriter_5,Completed,$45085,Approved,No,Standard premium
+A14105,Steve Rogers,Critical Illness,Declined,Medium,Underwriter_2,Not Required,$16856,Pending,No,Standard premium
+A81538,Tony Stark,Term Life,Pending,Medium,Underwriter_2,Pending,$36435,Approved,Yes,Increased premium due to high risk
+A75628,Tony Stark,Critical Illness,Pending,Low,Underwriter_2,Not Required,$8850,Approved,Yes,Standard premium
+A30371,Tony Stark,Critical Illness,Pending,Low,Underwriter_3,Not Required,$34969,Pending,No,Increased premium due to high risk
+A98235,Clint Barton,Health,Approved,Medium,Underwriter_5,Completed,$9311,Rejected,Yes,Standard premium
+A40494,Tony Stark,Health,Declined,High,Underwriter_1,Pending,$5033,Rejected,No,Standard premium
+A68879,Natasha Romanoff,Critical Illness,Approved,Medium,Underwriter_1,Pending,$18961,Pending,Yes,Increased premium due to high risk
+A43677,Bruce Banner,Term Life,Approved,Medium,Underwriter_2,Pending,$46907,Rejected,Yes,Increased premium due to high risk
+A22086,Natasha Romanoff,Health,Declined,Low,Underwriter_4,Completed,$18417,Pending,No,Standard premium
+A34052,Natasha Romanoff,Health,Pending,Medium,Underwriter_4,Completed,$18492,Pending,Yes,Increased premium due to high risk
+A85222,Natasha Romanoff,Critical Illness,Pending,Medium,Underwriter_3,Pending,$5335,Rejected,No,Increased premium due to high risk
+A55209,Natasha Romanoff,Term Life,Approved,Low,Underwriter_1,Completed,$49891,Approved,No,Increased premium due to high risk
+A44999,Steve Rogers,Life,Pending,Low,Underwriter_3,Completed,$6810,Pending,Yes,Standard premium
+A61730,Clint Barton,Health,Declined,High,Underwriter_1,Completed,$45892,Pending,No,Standard premium
+A96861,Tony Stark,Health,Pending,Medium,Underwriter_1,Not Required,$16213,Pending,Yes,Increased premium due to high risk
+A22365,Natasha Romanoff,Term Life,Declined,High,Underwriter_3,Completed,$21671,Pending,Yes,Increased premium due to high risk
+A12645,Tony Stark,Term Life,Approved,Low,Underwriter_2,Pending,$33990,Rejected,No,Standard premium
+A39845,Tony Stark,Health,Pending,High,Underwriter_4,Pending,$5317,Rejected,Yes,Increased premium due to high risk
+A50426,Steve Rogers,Critical Illness,Pending,Medium,Underwriter_2,Completed,$24069,Pending,Yes,Standard premium
+A81096,Tony Stark,Term Life,Declined,Low,Underwriter_2,Pending,$35264,Approved,No,Increased premium due to high risk
+A44473,Steve Rogers,Term Life,Pending,High,Underwriter_2,Not Required,$47684,Rejected,Yes,Standard premium
+A80664,Bruce Banner,Term Life,Approved,Low,Underwriter_5,Not Required,$26790,Approved,Yes,Increased premium due to high risk
+A66285,Tony Stark,Life,Declined,Low,Underwriter_4,Not Required,$20470,Rejected,Yes,Increased premium due to high risk
+A91989,Clint Barton,Critical Illness,Pending,Medium,Underwriter_5,Completed,$17474,Rejected,No,Increased premium due to high risk
+A64644,Steve Rogers,Term Life,Approved,Medium,Underwriter_2,Pending,$39583,Rejected,Yes,Increased premium due to high risk
+A21680,Steve Rogers,Term Life,Approved,High,Underwriter_2,Not Required,$29006,Pending,No,Standard premium
+A89642,Natasha Romanoff,Term Life,Pending,High,Underwriter_4,Completed,$6548,Rejected,No,Standard premium
+A20017,Natasha Romanoff,Term Life,Approved,Low,Underwriter_1,Completed,$28078,Pending,No,Increased premium due to high risk
+A52911,Clint Barton,Health,Pending,High,Underwriter_4,Not Required,$47312,Pending,No,Increased premium due to high risk
+A68626,Natasha Romanoff,Health,Pending,High,Underwriter_3,Pending,$21997,Approved,No,Standard premium
+A67687,Tony Stark,Health,Pending,Medium,Underwriter_3,Completed,$17761,Pending,No,Standard premium
+A26045,Steve Rogers,Term Life,Declined,Medium,Underwriter_1,Not Required,$19099,Rejected,No,Increased premium due to high risk
+A40411,Steve Rogers,Life,Approved,High,Underwriter_5,Pending,$33041,Pending,No,Increased premium due to high risk
+A12351,Clint Barton,Term Life,Approved,Medium,Underwriter_3,Pending,$6841,Pending,Yes,Increased premium due to high risk
+A85645,Tony Stark,Critical Illness,Pending,Medium,Underwriter_4,Pending,$40049,Rejected,Yes,Increased premium due to high risk
+A42738,Tony Stark,Health,Pending,High,Underwriter_5,Pending,$20555,Pending,Yes,Increased premium due to high risk
+A31130,Natasha Romanoff,Life,Approved,Medium,Underwriter_5,Pending,$14805,Rejected,No,Standard premium
+A60137,Clint Barton,Critical Illness,Pending,Low,Underwriter_5,Pending,$7708,Pending,No,Increased premium due to high risk
+A16594,Clint Barton,Health,Declined,High,Underwriter_1,Not Required,$26801,Pending,No,Standard premium
+A81745,Tony Stark,Health,Approved,Low,Underwriter_2,Pending,$41631,Rejected,Yes,Standard premium
+A33142,Tony Stark,Health,Approved,Medium,Underwriter_5,Not Required,$8400,Pending,No,Increased premium due to high risk
+A56010,Clint Barton,Life,Approved,Medium,Underwriter_4,Completed,$39568,Rejected,Yes,Increased premium due to high risk
+A99695,Clint Barton,Health,Approved,High,Underwriter_2,Pending,$42855,Approved,No,Standard premium
+A13829,Tony Stark,Health,Approved,High,Underwriter_3,Not Required,$48541,Rejected,No,Standard premium
+A62323,Bruce Banner,Term Life,Declined,Medium,Underwriter_2,Pending,$18070,Rejected,Yes,Increased premium due to high risk
+A35005,Tony Stark,Health,Declined,Medium,Underwriter_4,Not Required,$16822,Approved,Yes,Increased premium due to high risk
+A22709,Tony Stark,Health,Declined,Low,Underwriter_3,Completed,$35664,Rejected,No,Increased premium due to high risk
+A47282,Clint Barton,Term Life,Pending,Low,Underwriter_3,Not Required,$20907,Pending,No,Standard premium
+A97428,Bruce Banner,Term Life,Declined,Medium,Underwriter_2,Pending,$35119,Rejected,Yes,Standard premium
+A49688,Bruce Banner,Health,Approved,High,Underwriter_5,Completed,$36431,Rejected,Yes,Increased premium due to high risk
+A94831,Clint Barton,Life,Approved,Medium,Underwriter_4,Not Required,$44187,Pending,No,Increased premium due to high risk
+A65744,Steve Rogers,Critical Illness,Approved,High,Underwriter_3,Completed,$9200,Approved,Yes,Standard premium
+A65787,Clint Barton,Critical Illness,Approved,Low,Underwriter_4,Completed,$7053,Pending,No,Increased premium due to high risk
+A26877,Natasha Romanoff,Life,Pending,Medium,Underwriter_2,Completed,$23962,Approved,Yes,Standard premium
+A99105,Tony Stark,Life,Pending,Low,Underwriter_4,Not Required,$18647,Pending,Yes,Standard premium
+A58299,Natasha Romanoff,Term Life,Declined,High,Underwriter_2,Not Required,$26015,Pending,Yes,Standard premium
+A56023,Tony Stark,Health,Declined,Medium,Underwriter_2,Pending,$5924,Rejected,No,Standard premium
+A86748,Clint Barton,Life,Approved,Medium,Underwriter_1,Pending,$8629,Rejected,Yes,Standard premium
+A21058,Clint Barton,Life,Declined,Medium,Underwriter_4,Not Required,$41906,Pending,Yes,Standard premium
+A78702,Bruce Banner,Health,Approved,Low,Underwriter_4,Completed,$38906,Rejected,No,Standard premium
+A46784,Bruce Banner,Health,Pending,Medium,Underwriter_1,Pending,$32826,Pending,Yes,Standard premium
+A83872,Steve Rogers,Health,Pending,High,Underwriter_2,Completed,$15479,Approved,Yes,Standard premium
+A52933,Natasha Romanoff,Critical Illness,Pending,Low,Underwriter_4,Completed,$13496,Rejected,Yes,Standard premium
+A82467,Tony Stark,Life,Approved,Medium,Underwriter_5,Completed,$25851,Pending,No,Increased premium due to high risk
+A52683,Natasha Romanoff,Health,Pending,Low,Underwriter_4,Completed,$6509,Rejected,No,Increased premium due to high risk
+A85865,Bruce Banner,Term Life,Pending,Low,Underwriter_1,Completed,$37424,Approved,Yes,Increased premium due to high risk
+A97849,Tony Stark,Term Life,Declined,High,Underwriter_5,Not Required,$38833,Approved,Yes,Increased premium due to high risk
+A20816,Tony Stark,Critical Illness,Approved,Medium,Underwriter_1,Completed,$6422,Approved,No,Increased premium due to high risk
+A90655,Bruce Banner,Life,Pending,Low,Underwriter_4,Not Required,$27554,Pending,Yes,Standard premium
+A11667,Bruce Banner,Life,Approved,Medium,Underwriter_4,Pending,$6442,Rejected,No,Standard premium
+A83883,Natasha Romanoff,Critical Illness,Declined,Medium,Underwriter_5,Completed,$25321,Rejected,No,Increased premium due to high risk
+A72115,Tony Stark,Health,Approved,High,Underwriter_2,Pending,$30385,Rejected,No,Standard premium
+A45464,Steve Rogers,Life,Approved,Low,Underwriter_2,Completed,$35830,Approved,Yes,Standard premium
+A53890,Bruce Banner,Life,Declined,Low,Underwriter_5,Pending,$28574,Approved,Yes,Standard premium
+A37189,Clint Barton,Term Life,Approved,Medium,Underwriter_5,Completed,$5537,Approved,No,Increased premium due to high risk
+A85119,Natasha Romanoff,Critical Illness,Approved,Medium,Underwriter_5,Not Required,$13504,Rejected,No,Standard premium
+A61698,Steve Rogers,Health,Approved,Low,Underwriter_2,Not Required,$26668,Approved,Yes,Increased premium due to high risk
+A92759,Natasha Romanoff,Health,Approved,High,Underwriter_1,Pending,$25443,Pending,No,Standard premium
+A12313,Steve Rogers,Health,Declined,High,Underwriter_3,Not Required,$41199,Rejected,Yes,Increased premium due to high risk
+A65969,Natasha Romanoff,Critical Illness,Declined,Medium,Underwriter_2,Not Required,$49058,Rejected,No,Standard premium
+A93670,Natasha Romanoff,Health,Declined,High,Underwriter_4,Pending,$25751,Pending,No,Standard premium
+A52214,Steve Rogers,Health,Declined,High,Underwriter_3,Not Required,$42066,Pending,Yes,Increased premium due to high risk
+A72807,Tony Stark,Life,Approved,Medium,Underwriter_1,Pending,$25280,Approved,No,Standard premium
+A35848,Bruce Banner,Health,Approved,High,Underwriter_4,Completed,$31083,Rejected,No,Standard premium
+A67032,Clint Barton,Health,Declined,Medium,Underwriter_1,Completed,$25197,Approved,No,Standard premium
+A75086,Bruce Banner,Health,Approved,High,Underwriter_5,Pending,$46470,Rejected,Yes,Increased premium due to high risk
+A46520,Tony Stark,Life,Declined,Medium,Underwriter_2,Pending,$44193,Pending,Yes,Increased premium due to high risk
+A49953,Bruce Banner,Critical Illness,Declined,Medium,Underwriter_4,Not Required,$7853,Rejected,Yes,Standard premium
+A72226,Bruce Banner,Health,Pending,Medium,Underwriter_3,Not Required,$18936,Rejected,No,Increased premium due to high risk
+A99523,Clint Barton,Life,Declined,Medium,Underwriter_3,Pending,$18688,Rejected,Yes,Standard premium
+A15710,Tony Stark,Life,Pending,Low,Underwriter_4,Pending,$39999,Pending,Yes,Standard premium
+A46724,Clint Barton,Health,Declined,High,Underwriter_1,Not Required,$45218,Rejected,Yes,Increased premium due to high risk
+A61405,Steve Rogers,Life,Approved,Medium,Underwriter_4,Completed,$33537,Rejected,No,Standard premium
+A53231,Steve Rogers,Life,Approved,Medium,Underwriter_2,Not Required,$16559,Pending,No,Increased premium due to high risk
+A31278,Bruce Banner,Term Life,Declined,Low,Underwriter_4,Completed,$38236,Rejected,Yes,Increased premium due to high risk
+A96927,Natasha Romanoff,Critical Illness,Pending,Medium,Underwriter_3,Completed,$38951,Pending,No,Standard premium
+A94224,Natasha Romanoff,Term Life,Declined,Medium,Underwriter_4,Not Required,$11217,Rejected,No,Standard premium
+A15967,Clint Barton,Life,Declined,High,Underwriter_2,Completed,$18667,Approved,No,Standard premium
+A43673,Bruce Banner,Life,Pending,Medium,Underwriter_2,Completed,$11878,Approved,No,Increased premium due to high risk
+A54223,Natasha Romanoff,Life,Declined,Low,Underwriter_3,Pending,$47886,Rejected,Yes,Increased premium due to high risk
+A97298,Tony Stark,Critical Illness,Pending,Low,Underwriter_1,Pending,$46295,Pending,Yes,Increased premium due to high risk
+A13987,Steve Rogers,Critical Illness,Pending,High,Underwriter_1,Pending,$33553,Pending,Yes,Increased premium due to high risk
+A97662,Steve Rogers,Term Life,Pending,High,Underwriter_1,Pending,$22557,Pending,No,Standard premium
+A93105,Steve Rogers,Life,Declined,Medium,Underwriter_4,Completed,$20180,Approved,Yes,Standard premium
+A54455,Bruce Banner,Health,Pending,Low,Underwriter_5,Not Required,$9811,Pending,No,Increased premium due to high risk
+A16210,Bruce Banner,Life,Pending,Low,Underwriter_5,Completed,$8486,Pending,Yes,Standard premium
+A68060,Bruce Banner,Term Life,Approved,Medium,Underwriter_1,Pending,$6503,Approved,Yes,Increased premium due to high risk
+A21468,Natasha Romanoff,Critical Illness,Declined,Low,Underwriter_1,Completed,$16509,Pending,No,Standard premium
+A80469,Natasha Romanoff,Health,Approved,High,Underwriter_1,Completed,$25043,Approved,Yes,Standard premium
+A23148,Clint Barton,Term Life,Approved,Low,Underwriter_3,Completed,$12987,Pending,Yes,Increased premium due to high risk
+A29723,Natasha Romanoff,Critical Illness,Declined,High,Underwriter_2,Pending,$17306,Pending,No,Increased premium due to high risk
+A78273,Bruce Banner,Term Life,Approved,High,Underwriter_3,Completed,$45040,Approved,No,Standard premium
+A74382,Clint Barton,Health,Pending,High,Underwriter_4,Not Required,$25172,Rejected,Yes,Standard premium
+A36273,Bruce Banner,Term Life,Declined,High,Underwriter_5,Completed,$40013,Pending,No,Standard premium
+A15634,Tony Stark,Life,Pending,Low,Underwriter_4,Not Required,$42200,Pending,Yes,Increased premium due to high risk
+A32946,Bruce Banner,Life,Declined,Medium,Underwriter_4,Pending,$25691,Pending,Yes,Increased premium due to high risk
+A64398,Natasha Romanoff,Critical Illness,Approved,Low,Underwriter_3,Completed,$23423,Approved,Yes,Standard premium
+A94777,Natasha Romanoff,Term Life,Approved,Low,Underwriter_4,Pending,$7193,Pending,No,Standard premium
+A10785,Steve Rogers,Critical Illness,Pending,Medium,Underwriter_3,Not Required,$27497,Rejected,No,Increased premium due to high risk
+A19838,Bruce Banner,Life,Declined,Low,Underwriter_5,Completed,$49291,Approved,No,Standard premium
+A43307,Steve Rogers,Life,Pending,High,Underwriter_4,Not Required,$37268,Rejected,Yes,Standard premium
+A53098,Tony Stark,Critical Illness,Pending,High,Underwriter_1,Pending,$20456,Rejected,No,Standard premium
+A48592,Tony Stark,Critical Illness,Approved,Medium,Underwriter_1,Not Required,$20416,Rejected,Yes,Increased premium due to high risk
+A16641,Tony Stark,Life,Approved,Medium,Underwriter_4,Not Required,$33472,Approved,No,Standard premium
+A83714,Bruce Banner,Health,Approved,Medium,Underwriter_2,Completed,$26536,Pending,Yes,Increased premium due to high risk
+A51565,Clint Barton,Critical Illness,Pending,High,Underwriter_3,Pending,$37066,Pending,Yes,Increased premium due to high risk
+A36374,Bruce Banner,Term Life,Approved,Low,Underwriter_4,Completed,$32855,Approved,Yes,Increased premium due to high risk
+A92084,Natasha Romanoff,Term Life,Approved,Medium,Underwriter_5,Completed,$19942,Pending,Yes,Standard premium
+A81594,Natasha Romanoff,Life,Approved,High,Underwriter_3,Not Required,$25920,Rejected,Yes,Standard premium
+A58035,Clint Barton,Health,Declined,Low,Underwriter_3,Pending,$49904,Pending,No,Standard premium
+A62694,Natasha Romanoff,Life,Pending,Medium,Underwriter_5,Pending,$30410,Approved,No,Increased premium due to high risk
+A98044,Tony Stark,Life,Pending,Medium,Underwriter_5,Completed,$24819,Pending,Yes,Standard premium
+A94143,Clint Barton,Critical Illness,Approved,Low,Underwriter_2,Pending,$43031,Approved,Yes,Standard premium
+A69018,Bruce Banner,Term Life,Pending,High,Underwriter_2,Pending,$39662,Rejected,No,Increased premium due to high risk
+A43586,Bruce Banner,Term Life,Approved,Medium,Underwriter_1,Completed,$49082,Pending,No,Increased premium due to high risk
+A40774,Tony Stark,Term Life,Pending,Medium,Underwriter_1,Not Required,$42640,Rejected,No,Increased premium due to high risk
+A11955,Steve Rogers,Term Life,Declined,High,Underwriter_3,Not Required,$23023,Approved,No,Increased premium due to high risk
+A15627,Tony Stark,Critical Illness,Pending,High,Underwriter_5,Completed,$31975,Approved,Yes,Increased premium due to high risk
+A78012,Natasha Romanoff,Critical Illness,Declined,Medium,Underwriter_3,Not Required,$39074,Pending,No,Standard premium
+A62794,Tony Stark,Health,Declined,Low,Underwriter_4,Completed,$35972,Pending,Yes,Increased premium due to high risk
+A73180,Steve Rogers,Critical Illness,Approved,Low,Underwriter_3,Pending,$7371,Approved,No,Increased premium due to high risk
+A53388,Tony Stark,Critical Illness,Declined,High,Underwriter_3,Completed,$30677,Approved,Yes,Increased premium due to high risk
+A36393,Clint Barton,Life,Approved,Medium,Underwriter_3,Not Required,$10904,Rejected,No,Standard premium
+A22235,Natasha Romanoff,Critical Illness,Pending,Low,Underwriter_3,Pending,$10156,Rejected,Yes,Increased premium due to high risk
+A13956,Bruce Banner,Life,Pending,High,Underwriter_5,Completed,$38962,Rejected,No,Standard premium
+A98839,Steve Rogers,Critical Illness,Approved,High,Underwriter_1,Pending,$45620,Approved,Yes,Increased premium due to high risk
+A27137,Natasha Romanoff,Term Life,Pending,Low,Underwriter_1,Completed,$11718,Pending,No,Increased premium due to high risk
+A10308,Tony Stark,Life,Approved,Low,Underwriter_3,Not Required,$18321,Pending,No,Standard premium
+A14465,Tony Stark,Health,Pending,High,Underwriter_4,Completed,$22120,Pending,No,Increased premium due to high risk
+A96453,Bruce Banner,Critical Illness,Pending,High,Underwriter_5,Not Required,$27527,Pending,Yes,Increased premium due to high risk
+A58620,Steve Rogers,Life,Declined,High,Underwriter_1,Completed,$42305,Rejected,Yes,Increased premium due to high risk
+A72074,Steve Rogers,Term Life,Approved,High,Underwriter_4,Pending,$39294,Rejected,Yes,Standard premium
+A93520,Tony Stark,Health,Approved,Low,Underwriter_4,Not Required,$6954,Pending,No,Increased premium due to high risk
+A72413,Steve Rogers,Critical Illness,Pending,Low,Underwriter_3,Not Required,$21751,Approved,Yes,Standard premium
+A13416,Clint Barton,Life,Pending,Medium,Underwriter_4,Not Required,$25303,Rejected,No,Increased premium due to high risk
+A63814,Natasha Romanoff,Term Life,Approved,Medium,Underwriter_5,Completed,$33167,Pending,Yes,Increased premium due to high risk
+A52429,Natasha Romanoff,Critical Illness,Declined,Medium,Underwriter_4,Pending,$29585,Approved,No,Increased premium due to high risk
+A30781,Natasha Romanoff,Critical Illness,Pending,High,Underwriter_4,Not Required,$24274,Pending,No,Standard premium
+A99030,Clint Barton,Term Life,Declined,High,Underwriter_1,Completed,$17923,Approved,No,Standard premium
+A61559,Tony Stark,Critical Illness,Approved,Medium,Underwriter_2,Completed,$21907,Pending,No,Increased premium due to high risk
+A70164,Clint Barton,Life,Pending,Medium,Underwriter_2,Not Required,$47548,Pending,Yes,Increased premium due to high risk
+A55244,Bruce Banner,Life,Approved,Low,Underwriter_4,Not Required,$19214,Approved,No,Increased premium due to high risk
+A44476,Tony Stark,Critical Illness,Approved,High,Underwriter_2,Not Required,$21895,Approved,No,Standard premium
+A35394,Tony Stark,Health,Approved,Medium,Underwriter_1,Pending,$8000,Rejected,Yes,Standard premium
+A84622,Steve Rogers,Health,Approved,Medium,Underwriter_5,Not Required,$9086,Approved,No,Standard premium
+A90454,Clint Barton,Term Life,Approved,High,Underwriter_4,Pending,$34108,Approved,No,Increased premium due to high risk
+A47053,Bruce Banner,Critical Illness,Pending,Low,Underwriter_3,Not Required,$46061,Approved,No,Increased premium due to high risk
+A75342,Bruce Banner,Term Life,Pending,High,Underwriter_3,Pending,$34149,Approved,Yes,Increased premium due to high risk
+A62649,Natasha Romanoff,Term Life,Pending,Low,Underwriter_5,Completed,$16924,Pending,Yes,Increased premium due to high risk
+A79118,Clint Barton,Health,Approved,High,Underwriter_4,Pending,$22563,Approved,Yes,Standard premium
+A84976,Natasha Romanoff,Life,Declined,Low,Underwriter_2,Not Required,$20219,Approved,Yes,Increased premium due to high risk
+A69395,Clint Barton,Life,Pending,Low,Underwriter_2,Not Required,$16208,Rejected,No,Increased premium due to high risk
+A68727,Clint Barton,Term Life,Declined,Medium,Underwriter_4,Not Required,$38797,Rejected,No,Increased premium due to high risk
+A43068,Steve Rogers,Term Life,Pending,Medium,Underwriter_4,Completed,$49419,Approved,No,Standard premium
+A24091,Natasha Romanoff,Life,Pending,Medium,Underwriter_4,Not Required,$36414,Rejected,No,Standard premium
+A50460,Natasha Romanoff,Critical Illness,Declined,High,Underwriter_3,Not Required,$16912,Pending,Yes,Standard premium
+A98329,Steve Rogers,Critical Illness,Declined,Medium,Underwriter_4,Pending,$20325,Rejected,No,Standard premium
+A61681,Steve Rogers,Health,Approved,Medium,Underwriter_2,Completed,$28419,Rejected,No,Increased premium due to high risk
+A91064,Natasha Romanoff,Life,Declined,Medium,Underwriter_4,Pending,$27835,Pending,No,Standard premium
+A68872,Steve Rogers,Term Life,Approved,High,Underwriter_3,Not Required,$6672,Approved,Yes,Standard premium
+A23213,Tony Stark,Life,Pending,Low,Underwriter_3,Not Required,$33975,Approved,Yes,Increased premium due to high risk
+A99158,Steve Rogers,Critical Illness,Declined,High,Underwriter_3,Completed,$42969,Pending,No,Increased premium due to high risk
+A21542,Natasha Romanoff,Health,Pending,Medium,Underwriter_2,Pending,$39434,Pending,Yes,Standard premium
+A85886,Tony Stark,Term Life,Approved,Low,Underwriter_5,Not Required,$32275,Approved,Yes,Increased premium due to high risk
+A33226,Steve Rogers,Term Life,Declined,Medium,Underwriter_5,Pending,$11519,Approved,Yes,Increased premium due to high risk
+A43790,Bruce Banner,Term Life,Approved,Low,Underwriter_1,Not Required,$24571,Approved,Yes,Standard premium
+A25414,Bruce Banner,Critical Illness,Declined,Low,Underwriter_4,Not Required,$30303,Pending,Yes,Increased premium due to high risk
+A61185,Steve Rogers,Life,Declined,High,Underwriter_5,Pending,$28053,Pending,No,Standard premium
+A81594,Natasha Romanoff,Life,Pending,Medium,Underwriter_5,Not Required,$26804,Pending,Yes,Increased premium due to high risk
+A75018,Bruce Banner,Term Life,Approved,Low,Underwriter_1,Pending,$31105,Rejected,No,Increased premium due to high risk
+A48754,Bruce Banner,Health,Declined,High,Underwriter_2,Not Required,$33248,Approved,No,Increased premium due to high risk
+A69406,Clint Barton,Critical Illness,Approved,High,Underwriter_5,Completed,$17888,Rejected,No,Standard premium
+A13526,Bruce Banner,Life,Pending,High,Underwriter_2,Pending,$36317,Rejected,No,Increased premium due to high risk
+A34392,Natasha Romanoff,Critical Illness,Pending,High,Underwriter_1,Not Required,$5635,Rejected,No,Standard premium
+A32871,Clint Barton,Life,Pending,Low,Underwriter_3,Pending,$37395,Rejected,No,Standard premium
+A28188,Bruce Banner,Life,Declined,Medium,Underwriter_5,Completed,$5934,Pending,Yes,Standard premium
+A71477,Natasha Romanoff,Critical Illness,Declined,High,Underwriter_4,Pending,$30022,Pending,Yes,Increased premium due to high risk
+A16730,Tony Stark,Term Life,Declined,High,Underwriter_2,Pending,$25971,Pending,Yes,Standard premium
+A36346,Clint Barton,Term Life,Pending,High,Underwriter_5,Completed,$9482,Approved,No,Standard premium
+A64977,Clint Barton,Term Life,Pending,High,Underwriter_2,Pending,$42582,Pending,Yes,Standard premium
+A42294,Natasha Romanoff,Term Life,Declined,High,Underwriter_4,Completed,$23714,Pending,No,Increased premium due to high risk
+A19978,Natasha Romanoff,Life,Declined,High,Underwriter_2,Completed,$29531,Rejected,No,Standard premium
+A84642,Bruce Banner,Health,Approved,High,Underwriter_4,Pending,$12834,Approved,Yes,Standard premium
+A36854,Clint Barton,Critical Illness,Declined,High,Underwriter_5,Completed,$32255,Approved,Yes,Increased premium due to high risk
+A70552,Steve Rogers,Health,Approved,Medium,Underwriter_5,Not Required,$23128,Pending,Yes,Increased premium due to high risk
+A82222,Natasha Romanoff,Critical Illness,Approved,Low,Underwriter_1,Pending,$44054,Rejected,Yes,Increased premium due to high risk
+A31065,Tony Stark,Life,Approved,Low,Underwriter_1,Completed,$36891,Rejected,Yes,Standard premium
+A16700,Clint Barton,Term Life,Declined,High,Underwriter_5,Not Required,$18327,Pending,No,Standard premium
+A13122,Natasha Romanoff,Term Life,Declined,Medium,Underwriter_5,Pending,$11115,Rejected,No,Increased premium due to high risk
+A44496,Bruce Banner,Term Life,Pending,Medium,Underwriter_1,Pending,$30462,Pending,Yes,Increased premium due to high risk
+A81242,Natasha Romanoff,Life,Declined,Medium,Underwriter_1,Pending,$11651,Approved,No,Standard premium
+A59723,Clint Barton,Life,Pending,Low,Underwriter_4,Pending,$7125,Rejected,Yes,Standard premium
+A93699,Tony Stark,Term Life,Declined,Low,Underwriter_4,Not Required,$20370,Rejected,No,Standard premium
+A80178,Steve Rogers,Critical Illness,Declined,High,Underwriter_2,Not Required,$13519,Approved,No,Increased premium due to high risk
+A21013,Clint Barton,Health,Declined,High,Underwriter_4,Pending,$17459,Approved,No,Standard premium
+A70411,Tony Stark,Term Life,Declined,High,Underwriter_1,Completed,$23389,Rejected,Yes,Standard premium
+A53090,Tony Stark,Critical Illness,Declined,Low,Underwriter_5,Not Required,$43746,Pending,No,Standard premium
+A17258,Clint Barton,Critical Illness,Approved,Low,Underwriter_5,Completed,$24876,Approved,Yes,Increased premium due to high risk
+A98316,Steve Rogers,Critical Illness,Approved,Medium,Underwriter_5,Pending,$23206,Pending,Yes,Standard premium
+A44031,Tony Stark,Life,Pending,High,Underwriter_5,Completed,$10200,Approved,Yes,Increased premium due to high risk
+A81631,Bruce Banner,Term Life,Declined,Medium,Underwriter_2,Pending,$49686,Approved,No,Standard premium
+A63698,Bruce Banner,Life,Pending,High,Underwriter_2,Completed,$25646,Pending,No,Increased premium due to high risk
+A51750,Steve Rogers,Critical Illness,Declined,High,Underwriter_2,Pending,$27476,Rejected,No,Standard premium
+A76449,Clint Barton,Health,Approved,High,Underwriter_1,Completed,$33305,Pending,Yes,Increased premium due to high risk
+A71879,Steve Rogers,Health,Declined,Medium,Underwriter_3,Not Required,$12290,Approved,Yes,Increased premium due to high risk
+A11115,Bruce Banner,Health,Approved,High,Underwriter_1,Not Required,$25010,Pending,Yes,Increased premium due to high risk
+A46520,Steve Rogers,Life,Declined,Low,Underwriter_4,Not Required,$15714,Rejected,Yes,Increased premium due to high risk
+A48673,Natasha Romanoff,Health,Pending,Medium,Underwriter_3,Completed,$11901,Approved,No,Increased premium due to high risk
+A50815,Natasha Romanoff,Health,Pending,Low,Underwriter_1,Pending,$37735,Approved,Yes,Standard premium
+A98793,Bruce Banner,Life,Approved,High,Underwriter_3,Pending,$25385,Rejected,Yes,Standard premium
+A97544,Tony Stark,Life,Approved,High,Underwriter_2,Completed,$26017,Approved,No,Standard premium
+A27167,Natasha Romanoff,Critical Illness,Approved,High,Underwriter_1,Completed,$27276,Approved,Yes,Increased premium due to high risk
+A17100,Clint Barton,Life,Approved,High,Underwriter_5,Pending,$11861,Pending,No,Increased premium due to high risk
+A40968,Bruce Banner,Health,Approved,Medium,Underwriter_2,Not Required,$24426,Rejected,Yes,Increased premium due to high risk
+A56225,Clint Barton,Life,Approved,Medium,Underwriter_3,Pending,$16871,Rejected,Yes,Standard premium
+A43086,Steve Rogers,Critical Illness,Declined,High,Underwriter_3,Pending,$16508,Pending,No,Standard premium
+A64514,Clint Barton,Life,Approved,High,Underwriter_4,Not Required,$34059,Rejected,No,Increased premium due to high risk
+A13171,Tony Stark,Critical Illness,Approved,High,Underwriter_5,Completed,$43458,Rejected,Yes,Standard premium
+A45032,Tony Stark,Health,Approved,Low,Underwriter_2,Pending,$17935,Pending,Yes,Standard premium
+A19803,Natasha Romanoff,Critical Illness,Approved,Low,Underwriter_1,Completed,$28674,Approved,No,Standard premium
+A15248,Tony Stark,Term Life,Pending,High,Underwriter_2,Not Required,$18137,Pending,Yes,Increased premium due to high risk
+A50541,Bruce Banner,Life,Pending,Medium,Underwriter_5,Pending,$28419,Approved,Yes,Increased premium due to high risk
+A80309,Steve Rogers,Health,Approved,High,Underwriter_3,Not Required,$26140,Approved,No,Increased premium due to high risk
+A18973,Steve Rogers,Critical Illness,Approved,Low,Underwriter_1,Completed,$43345,Rejected,No,Increased premium due to high risk
+A71050,Steve Rogers,Life,Approved,Medium,Underwriter_4,Completed,$35324,Pending,Yes,Increased premium due to high risk
+A25145,Clint Barton,Term Life,Approved,High,Underwriter_2,Not Required,$6101,Rejected,Yes,Standard premium
+A34607,Natasha Romanoff,Health,Approved,Medium,Underwriter_3,Not Required,$35661,Approved,No,Increased premium due to high risk
+A49313,Bruce Banner,Health,Declined,Low,Underwriter_2,Pending,$45144,Rejected,Yes,Standard premium
+A25535,Bruce Banner,Critical Illness,Approved,Low,Underwriter_2,Pending,$34755,Pending,No,Increased premium due to high risk
+A71385,Steve Rogers,Health,Approved,High,Underwriter_2,Not Required,$11023,Pending,Yes,Standard premium
+A56890,Steve Rogers,Term Life,Pending,Medium,Underwriter_5,Completed,$24308,Approved,No,Increased premium due to high risk
+A60818,Natasha Romanoff,Health,Approved,Low,Underwriter_4,Pending,$24178,Pending,Yes,Standard premium
+A85728,Natasha Romanoff,Life,Pending,High,Underwriter_4,Not Required,$22255,Approved,No,Increased premium due to high risk
+A72882,Tony Stark,Health,Approved,Low,Underwriter_1,Pending,$24521,Rejected,Yes,Increased premium due to high risk
+A66074,Tony Stark,Life,Declined,Medium,Underwriter_5,Pending,$32165,Approved,Yes,Standard premium
+A70808,Tony Stark,Health,Approved,High,Underwriter_4,Pending,$34434,Rejected,Yes,Standard premium
+A11784,Steve Rogers,Critical Illness,Declined,Medium,Underwriter_4,Pending,$40357,Rejected,Yes,Increased premium due to high risk
+A74550,Natasha Romanoff,Life,Declined,Medium,Underwriter_3,Pending,$48774,Pending,No,Increased premium due to high risk
+A19569,Tony Stark,Health,Declined,Low,Underwriter_2,Completed,$21517,Rejected,No,Standard premium
+A76759,Steve Rogers,Term Life,Declined,High,Underwriter_2,Completed,$44872,Pending,No,Increased premium due to high risk
+A86682,Clint Barton,Health,Approved,Medium,Underwriter_1,Not Required,$20262,Pending,Yes,Increased premium due to high risk
+A36761,Tony Stark,Term Life,Approved,High,Underwriter_2,Pending,$43151,Rejected,Yes,Standard premium
+A93110,Tony Stark,Health,Approved,Medium,Underwriter_1,Pending,$28485,Rejected,No,Standard premium
+A57604,Clint Barton,Life,Approved,Medium,Underwriter_1,Pending,$8279,Pending,No,Standard premium
+A41984,Natasha Romanoff,Term Life,Pending,High,Underwriter_3,Pending,$11655,Rejected,Yes,Standard premium
+A31136,Natasha Romanoff,Critical Illness,Pending,Medium,Underwriter_1,Not Required,$45916,Approved,No,Standard premium
+A55914,Clint Barton,Life,Approved,Medium,Underwriter_1,Pending,$10513,Rejected,Yes,Increased premium due to high risk
+A38719,Tony Stark,Health,Pending,High,Underwriter_1,Not Required,$41130,Pending,Yes,Standard premium
+A76662,Steve Rogers,Term Life,Approved,High,Underwriter_2,Completed,$40615,Approved,No,Increased premium due to high risk
+A71148,Natasha Romanoff,Health,Declined,Medium,Underwriter_5,Not Required,$46866,Pending,No,Increased premium due to high risk
+A97215,Bruce Banner,Life,Pending,Medium,Underwriter_3,Pending,$5897,Rejected,No,Standard premium
+A74775,Bruce Banner,Critical Illness,Approved,Medium,Underwriter_2,Completed,$12957,Rejected,No,Standard premium
+A86655,Bruce Banner,Term Life,Approved,High,Underwriter_4,Completed,$17140,Approved,No,Standard premium
+A49603,Bruce Banner,Term Life,Declined,High,Underwriter_2,Not Required,$15732,Rejected,No,Standard premium
+A56092,Natasha Romanoff,Health,Declined,Medium,Underwriter_4,Pending,$37787,Approved,No,Standard premium
+A11117,Steve Rogers,Critical Illness,Approved,Medium,Underwriter_2,Not Required,$41268,Pending,No,Standard premium
+A99528,Steve Rogers,Critical Illness,Pending,Low,Underwriter_3,Pending,$21973,Pending,Yes,Standard premium
+A58016,Natasha Romanoff,Critical Illness,Approved,Medium,Underwriter_2,Not Required,$22006,Approved,Yes,Standard premium
+A27161,Clint Barton,Health,Pending,Medium,Underwriter_3,Completed,$21380,Approved,Yes,Standard premium
+A58885,Natasha Romanoff,Life,Pending,Medium,Underwriter_5,Not Required,$22211,Approved,Yes,Standard premium
+A57518,Steve Rogers,Health,Declined,Medium,Underwriter_4,Not Required,$28374,Approved,No,Increased premium due to high risk
+A26082,Tony Stark,Critical Illness,Approved,Medium,Underwriter_4,Completed,$14926,Pending,Yes,Increased premium due to high risk
+A77180,Bruce Banner,Life,Approved,High,Underwriter_4,Not Required,$32971,Approved,No,Increased premium due to high risk
+A60510,Bruce Banner,Health,Approved,High,Underwriter_2,Completed,$47520,Pending,Yes,Increased premium due to high risk
+A63091,Bruce Banner,Critical Illness,Approved,Medium,Underwriter_5,Pending,$9411,Rejected,No,Increased premium due to high risk
+A93612,Natasha Romanoff,Term Life,Approved,Medium,Underwriter_4,Not Required,$22910,Pending,Yes,Standard premium
+A42115,Clint Barton,Life,Declined,Low,Underwriter_4,Pending,$46175,Rejected,No,Increased premium due to high risk
+A10624,Bruce Banner,Life,Approved,Low,Underwriter_2,Pending,$5972,Pending,Yes,Standard premium
+A56038,Steve Rogers,Critical Illness,Pending,Medium,Underwriter_3,Completed,$44821,Approved,No,Increased premium due to high risk
+A70716,Steve Rogers,Critical Illness,Approved,Medium,Underwriter_5,Completed,$31961,Pending,No,Standard premium
+A81021,Steve Rogers,Critical Illness,Pending,Low,Underwriter_5,Not Required,$32256,Approved,No,Standard premium
+A85422,Steve Rogers,Life,Declined,Medium,Underwriter_1,Pending,$23272,Approved,Yes,Standard premium
+A18454,Bruce Banner,Critical Illness,Declined,Low,Underwriter_4,Not Required,$17924,Pending,No,Standard premium
+A51411,Clint Barton,Life,Approved,Low,Underwriter_3,Not Required,$6479,Pending,No,Increased premium due to high risk
+A97940,Tony Stark,Health,Pending,Low,Underwriter_1,Not Required,$27170,Approved,Yes,Increased premium due to high risk
+A94352,Steve Rogers,Health,Approved,High,Underwriter_5,Pending,$49156,Pending,No,Increased premium due to high risk
+A92085,Natasha Romanoff,Health,Declined,High,Underwriter_1,Not Required,$43318,Pending,No,Increased premium due to high risk
+A86062,Clint Barton,Health,Declined,Low,Underwriter_5,Completed,$21639,Rejected,Yes,Standard premium
+A96368,Clint Barton,Life,Pending,Medium,Underwriter_1,Completed,$33782,Rejected,Yes,Standard premium
+A32691,Natasha Romanoff,Life,Declined,Medium,Underwriter_1,Completed,$16177,Pending,Yes,Increased premium due to high risk
+A42036,Natasha Romanoff,Health,Declined,Medium,Underwriter_3,Not Required,$10934,Pending,No,Standard premium
+A12023,Steve Rogers,Health,Declined,Low,Underwriter_3,Completed,$32335,Pending,Yes,Standard premium
+A14651,Clint Barton,Health,Pending,Low,Underwriter_2,Completed,$17984,Rejected,Yes,Standard premium
+A87792,Steve Rogers,Critical Illness,Pending,Low,Underwriter_2,Completed,$33455,Pending,Yes,Standard premium
+A83496,Natasha Romanoff,Health,Pending,Low,Underwriter_4,Pending,$13200,Approved,No,Standard premium
+A52752,Steve Rogers,Life,Pending,Medium,Underwriter_4,Completed,$44946,Rejected,Yes,Standard premium
+A51776,Clint Barton,Term Life,Declined,High,Underwriter_1,Pending,$15514,Approved,No,Increased premium due to high risk
+A37430,Natasha Romanoff,Critical Illness,Declined,Medium,Underwriter_4,Pending,$48180,Rejected,Yes,Increased premium due to high risk
+A21391,Steve Rogers,Term Life,Declined,Low,Underwriter_5,Completed,$13792,Approved,No,Standard premium
+A59958,Steve Rogers,Term Life,Approved,High,Underwriter_1,Pending,$14489,Rejected,No,Standard premium
+A45447,Natasha Romanoff,Critical Illness,Declined,Medium,Underwriter_1,Not Required,$19290,Pending,No,Standard premium
+A43440,Natasha Romanoff,Critical Illness,Pending,Medium,Underwriter_2,Not Required,$43401,Approved,Yes,Increased premium due to high risk
+A45752,Natasha Romanoff,Critical Illness,Approved,High,Underwriter_5,Pending,$18470,Rejected,No,Standard premium
+A20319,Bruce Banner,Life,Declined,Medium,Underwriter_1,Pending,$44900,Rejected,No,Increased premium due to high risk
+A38774,Steve Rogers,Critical Illness,Approved,Medium,Underwriter_1,Pending,$46763,Pending,Yes,Increased premium due to high risk
+A32330,Natasha Romanoff,Critical Illness,Declined,Medium,Underwriter_2,Pending,$16519,Pending,Yes,Standard premium
+A27045,Clint Barton,Health,Approved,Medium,Underwriter_5,Completed,$20610,Approved,No,Increased premium due to high risk
+A41550,Natasha Romanoff,Health,Pending,Low,Underwriter_5,Completed,$22705,Pending,Yes,Increased premium due to high risk
+A96823,Natasha Romanoff,Critical Illness,Pending,Low,Underwriter_5,Not Required,$29389,Pending,No,Increased premium due to high risk
+A76471,Steve Rogers,Health,Declined,High,Underwriter_1,Pending,$23180,Pending,Yes,Standard premium
+A75781,Steve Rogers,Life,Approved,Medium,Underwriter_2,Not Required,$13312,Approved,Yes,Increased premium due to high risk
+A89639,Clint Barton,Term Life,Approved,High,Underwriter_5,Pending,$23014,Rejected,No,Increased premium due to high risk
+A71437,Steve Rogers,Term Life,Approved,Low,Underwriter_4,Not Required,$12460,Approved,No,Standard premium
+A98334,Clint Barton,Critical Illness,Pending,Low,Underwriter_5,Completed,$37340,Rejected,No,Standard premium
+A99209,Steve Rogers,Life,Approved,Low,Underwriter_5,Completed,$12569,Approved,No,Increased premium due to high risk
+A45507,Bruce Banner,Health,Approved,Medium,Underwriter_1,Completed,$49298,Approved,No,Standard premium
+A68878,Clint Barton,Term Life,Pending,High,Underwriter_5,Not Required,$14408,Pending,Yes,Standard premium
+A10178,Bruce Banner,Critical Illness,Approved,Low,Underwriter_4,Not Required,$49900,Rejected,No,Increased premium due to high risk
+A20306,Bruce Banner,Term Life,Approved,Low,Underwriter_1,Not Required,$16436,Pending,No,Standard premium
+A52059,Tony Stark,Health,Pending,Low,Underwriter_3,Pending,$38711,Rejected,No,Increased premium due to high risk
+A22160,Tony Stark,Health,Declined,Medium,Underwriter_5,Not Required,$49489,Approved,Yes,Standard premium
+A25301,Steve Rogers,Term Life,Declined,Low,Underwriter_1,Not Required,$15034,Pending,No,Increased premium due to high risk
+A76604,Natasha Romanoff,Term Life,Declined,Medium,Underwriter_4,Completed,$29355,Approved,No,Standard premium
+A29828,Steve Rogers,Critical Illness,Pending,High,Underwriter_1,Completed,$45611,Rejected,Yes,Standard premium
+A71853,Steve Rogers,Life,Declined,High,Underwriter_5,Completed,$23226,Pending,Yes,Standard premium
+A57720,Tony Stark,Term Life,Declined,Medium,Underwriter_2,Pending,$10037,Approved,Yes,Standard premium
+A82222,Steve Rogers,Life,Pending,High,Underwriter_1,Pending,$35986,Pending,No,Standard premium
+A34947,Tony Stark,Term Life,Approved,Low,Underwriter_3,Not Required,$14621,Approved,No,Increased premium due to high risk
+A20641,Steve Rogers,Life,Pending,High,Underwriter_2,Not Required,$20125,Pending,Yes,Increased premium due to high risk
+A32329,Bruce Banner,Health,Pending,Medium,Underwriter_5,Not Required,$23840,Approved,No,Standard premium
+A62423,Natasha Romanoff,Term Life,Declined,Medium,Underwriter_4,Not Required,$38519,Approved,No,Increased premium due to high risk
+A37923,Steve Rogers,Health,Pending,Medium,Underwriter_1,Not Required,$22486,Approved,Yes,Increased premium due to high risk
+A98498,Steve Rogers,Life,Pending,Low,Underwriter_3,Not Required,$48098,Approved,Yes,Standard premium
+A17033,Bruce Banner,Health,Pending,High,Underwriter_2,Not Required,$26975,Rejected,Yes,Increased premium due to high risk
+A10811,Clint Barton,Life,Pending,Medium,Underwriter_5,Pending,$43456,Rejected,No,Increased premium due to high risk
+A33534,Tony Stark,Critical Illness,Approved,High,Underwriter_3,Pending,$8632,Approved,No,Increased premium due to high risk
+A47286,Bruce Banner,Health,Approved,Medium,Underwriter_3,Not Required,$46704,Rejected,Yes,Standard premium
+A89989,Bruce Banner,Life,Pending,Low,Underwriter_3,Pending,$14331,Rejected,Yes,Standard premium
+A82512,Steve Rogers,Life,Approved,Medium,Underwriter_5,Pending,$19652,Rejected,Yes,Increased premium due to high risk
+A17416,Steve Rogers,Term Life,Pending,Low,Underwriter_3,Completed,$10478,Rejected,Yes,Increased premium due to high risk
+A13481,Steve Rogers,Life,Declined,Low,Underwriter_4,Completed,$22628,Rejected,Yes,Standard premium
+A84785,Clint Barton,Health,Pending,High,Underwriter_1,Pending,$26385,Rejected,No,Increased premium due to high risk
+A51661,Tony Stark,Life,Approved,Low,Underwriter_5,Completed,$32215,Pending,Yes,Standard premium
+A77302,Tony Stark,Health,Pending,High,Underwriter_3,Completed,$6399,Rejected,Yes,Increased premium due to high risk
+A36057,Bruce Banner,Term Life,Approved,Medium,Underwriter_1,Completed,$33706,Pending,No,Standard premium
+A93944,Steve Rogers,Health,Approved,Low,Underwriter_3,Pending,$16286,Approved,Yes,Increased premium due to high risk
+A66795,Clint Barton,Health,Declined,Medium,Underwriter_4,Not Required,$21246,Rejected,Yes,Standard premium
+A84489,Natasha Romanoff,Life,Declined,High,Underwriter_4,Not Required,$24689,Approved,No,Standard premium
+A28177,Steve Rogers,Term Life,Pending,High,Underwriter_2,Completed,$31245,Rejected,No,Increased premium due to high risk
+A79877,Natasha Romanoff,Term Life,Approved,Medium,Underwriter_2,Pending,$15552,Approved,No,Standard premium
+A77431,Natasha Romanoff,Term Life,Declined,High,Underwriter_3,Completed,$14438,Rejected,No,Increased premium due to high risk
+A52941,Steve Rogers,Term Life,Pending,Medium,Underwriter_2,Not Required,$32344,Rejected,Yes,Increased premium due to high risk
+A85641,Natasha Romanoff,Health,Approved,High,Underwriter_1,Pending,$49347,Approved,Yes,Increased premium due to high risk
+A12530,Bruce Banner,Term Life,Approved,Medium,Underwriter_5,Completed,$45849,Rejected,No,Increased premium due to high risk
+A57366,Steve Rogers,Life,Approved,Low,Underwriter_1,Not Required,$26640,Rejected,No,Increased premium due to high risk
+A87966,Bruce Banner,Term Life,Declined,Medium,Underwriter_1,Not Required,$44196,Rejected,Yes,Increased premium due to high risk
+A40131,Tony Stark,Critical Illness,Pending,Low,Underwriter_4,Completed,$23943,Pending,Yes,Increased premium due to high risk
+A30967,Tony Stark,Critical Illness,Declined,Medium,Underwriter_1,Completed,$41092,Approved,Yes,Increased premium due to high risk
+A89847,Clint Barton,Life,Pending,Medium,Underwriter_4,Pending,$37768,Approved,No,Increased premium due to high risk
+A24251,Steve Rogers,Term Life,Approved,Medium,Underwriter_4,Completed,$21792,Pending,Yes,Standard premium
+A36605,Tony Stark,Health,Approved,Low,Underwriter_2,Not Required,$28233,Approved,Yes,Increased premium due to high risk
+A93024,Natasha Romanoff,Health,Pending,High,Underwriter_5,Pending,$34551,Rejected,No,Increased premium due to high risk
+A79730,Clint Barton,Health,Declined,Medium,Underwriter_3,Completed,$12507,Rejected,Yes,Standard premium
+A51456,Steve Rogers,Life,Declined,Low,Underwriter_4,Not Required,$28447,Approved,No,Increased premium due to high risk
+A16465,Natasha Romanoff,Critical Illness,Pending,High,Underwriter_3,Pending,$48738,Pending,Yes,Increased premium due to high risk
+A27140,Tony Stark,Term Life,Declined,Low,Underwriter_2,Not Required,$42635,Rejected,No,Standard premium
+A12649,Clint Barton,Critical Illness,Declined,Medium,Underwriter_2,Not Required,$17210,Rejected,Yes,Standard premium
+A46294,Steve Rogers,Health,Declined,Medium,Underwriter_1,Pending,$17610,Pending,No,Standard premium
+A85768,Natasha Romanoff,Critical Illness,Pending,High,Underwriter_3,Completed,$30381,Pending,Yes,Standard premium
+A40739,Natasha Romanoff,Health,Approved,High,Underwriter_4,Pending,$23066,Approved,No,Increased premium due to high risk
+A95286,Steve Rogers,Term Life,Pending,High,Underwriter_5,Completed,$13630,Rejected,Yes,Standard premium
+A69527,Bruce Banner,Health,Declined,Medium,Underwriter_5,Pending,$37526,Pending,Yes,Standard premium
+A15079,Clint Barton,Life,Approved,Low,Underwriter_5,Completed,$7986,Approved,No,Standard premium
+A96761,Clint Barton,Critical Illness,Approved,Low,Underwriter_4,Pending,$11694,Approved,No,Increased premium due to high risk
+A44876,Natasha Romanoff,Critical Illness,Pending,Low,Underwriter_1,Pending,$21571,Approved,No,Standard premium
+A11079,Natasha Romanoff,Term Life,Pending,High,Underwriter_4,Not Required,$35676,Pending,No,Standard premium
+A52530,Clint Barton,Life,Approved,Low,Underwriter_2,Pending,$33004,Approved,No,Standard premium
+A63198,Clint Barton,Critical Illness,Pending,Low,Underwriter_4,Not Required,$36821,Pending,No,Standard premium
+A47278,Natasha Romanoff,Health,Approved,High,Underwriter_5,Completed,$8332,Rejected,No,Increased premium due to high risk
+A13286,Bruce Banner,Health,Declined,Medium,Underwriter_3,Pending,$33088,Rejected,No,Standard premium
+A20481,Bruce Banner,Critical Illness,Pending,Medium,Underwriter_4,Not Required,$43794,Rejected,Yes,Standard premium
+A82424,Bruce Banner,Health,Approved,High,Underwriter_4,Completed,$15335,Approved,Yes,Increased premium due to high risk
+A61377,Natasha Romanoff,Term Life,Pending,High,Underwriter_2,Completed,$17316,Pending,Yes,Increased premium due to high risk
+A68714,Bruce Banner,Life,Approved,High,Underwriter_1,Not Required,$39466,Approved,Yes,Increased premium due to high risk
+A39345,Steve Rogers,Term Life,Declined,High,Underwriter_4,Pending,$29014,Approved,Yes,Standard premium
+A84438,Clint Barton,Term Life,Pending,Low,Underwriter_2,Completed,$44367,Pending,Yes,Increased premium due to high risk
+A22038,Clint Barton,Health,Declined,High,Underwriter_3,Pending,$46875,Pending,No,Increased premium due to high risk
+A43219,Natasha Romanoff,Life,Declined,Low,Underwriter_3,Not Required,$8517,Approved,Yes,Standard premium
+A24892,Clint Barton,Health,Pending,High,Underwriter_1,Pending,$38292,Pending,Yes,Increased premium due to high risk
+A10767,Clint Barton,Health,Pending,Medium,Underwriter_2,Completed,$12185,Rejected,No,Standard premium
+A12386,Clint Barton,Critical Illness,Declined,Low,Underwriter_4,Completed,$28362,Rejected,Yes,Standard premium
+A41590,Tony Stark,Health,Approved,Medium,Underwriter_3,Completed,$17928,Rejected,Yes,Increased premium due to high risk
+A10910,Clint Barton,Health,Declined,Low,Underwriter_3,Not Required,$46262,Rejected,No,Increased premium due to high risk
+A96909,Natasha Romanoff,Term Life,Pending,Medium,Underwriter_4,Pending,$47563,Pending,Yes,Increased premium due to high risk
+A42072,Tony Stark,Term Life,Approved,High,Underwriter_3,Completed,$37501,Rejected,No,Standard premium
+A81133,Clint Barton,Health,Pending,Medium,Underwriter_4,Pending,$25798,Pending,Yes,Increased premium due to high risk
+A43043,Bruce Banner,Critical Illness,Approved,High,Underwriter_5,Pending,$41457,Approved,Yes,Increased premium due to high risk
+A94868,Bruce Banner,Health,Approved,High,Underwriter_5,Not Required,$49605,Rejected,No,Standard premium
+A17994,Tony Stark,Term Life,Pending,High,Underwriter_5,Not Required,$32460,Approved,Yes,Increased premium due to high risk
+A54043,Steve Rogers,Life,Approved,Medium,Underwriter_2,Completed,$21735,Pending,No,Increased premium due to high risk
+A23158,Bruce Banner,Term Life,Pending,Medium,Underwriter_2,Pending,$46442,Approved,Yes,Increased premium due to high risk
+A78556,Steve Rogers,Health,Pending,Medium,Underwriter_3,Completed,$45711,Rejected,No,Increased premium due to high risk
+A19507,Clint Barton,Term Life,Declined,Low,Underwriter_4,Not Required,$15968,Rejected,No,Increased premium due to high risk
+A12955,Tony Stark,Health,Declined,Low,Underwriter_2,Completed,$43427,Approved,Yes,Increased premium due to high risk
+A96710,Clint Barton,Life,Approved,Medium,Underwriter_5,Completed,$39737,Approved,Yes,Standard premium
+A13293,Tony Stark,Health,Pending,Medium,Underwriter_4,Not Required,$22423,Rejected,No,Increased premium due to high risk
+A77014,Steve Rogers,Health,Pending,Medium,Underwriter_1,Pending,$24340,Rejected,Yes,Increased premium due to high risk
+A34830,Natasha Romanoff,Term Life,Pending,Medium,Underwriter_3,Completed,$36524,Approved,Yes,Standard premium
+A73127,Bruce Banner,Critical Illness,Declined,Medium,Underwriter_5,Pending,$40283,Approved,No,Increased premium due to high risk
+A58623,Natasha Romanoff,Life,Approved,High,Underwriter_5,Not Required,$27665,Pending,No,Standard premium
+A80708,Natasha Romanoff,Term Life,Declined,Medium,Underwriter_4,Not Required,$34971,Rejected,Yes,Increased premium due to high risk
+A27701,Natasha Romanoff,Term Life,Approved,High,Underwriter_1,Completed,$27749,Rejected,No,Increased premium due to high risk
+A24764,Bruce Banner,Life,Declined,High,Underwriter_2,Completed,$42308,Pending,No,Standard premium
+A49584,Bruce Banner,Health,Approved,Medium,Underwriter_3,Pending,$30552,Approved,No,Increased premium due to high risk
+A24995,Tony Stark,Term Life,Pending,Medium,Underwriter_5,Completed,$7435,Pending,No,Standard premium
+A84513,Steve Rogers,Term Life,Declined,High,Underwriter_4,Pending,$11272,Pending,Yes,Increased premium due to high risk
+A52556,Steve Rogers,Critical Illness,Approved,High,Underwriter_5,Not Required,$37409,Rejected,Yes,Standard premium
+A25042,Clint Barton,Term Life,Pending,Medium,Underwriter_5,Completed,$28519,Pending,No,Increased premium due to high risk
+A39392,Bruce Banner,Critical Illness,Pending,High,Underwriter_1,Completed,$40569,Approved,No,Increased premium due to high risk
+A64905,Tony Stark,Critical Illness,Approved,Medium,Underwriter_2,Not Required,$49283,Rejected,No,Standard premium
+A95362,Tony Stark,Life,Declined,Medium,Underwriter_5,Completed,$15093,Pending,Yes,Standard premium
+A92127,Natasha Romanoff,Life,Pending,Low,Underwriter_4,Not Required,$24307,Approved,No,Standard premium
+A30481,Steve Rogers,Life,Pending,High,Underwriter_2,Pending,$44774,Rejected,Yes,Standard premium
+A45377,Tony Stark,Term Life,Approved,Low,Underwriter_1,Completed,$24399,Pending,Yes,Increased premium due to high risk
+A49111,Tony Stark,Term Life,Declined,High,Underwriter_4,Completed,$15802,Approved,No,Standard premium
+A60114,Clint Barton,Health,Pending,Low,Underwriter_2,Pending,$28068,Approved,No,Increased premium due to high risk
+A39951,Bruce Banner,Life,Pending,Low,Underwriter_2,Completed,$45103,Approved,No,Increased premium due to high risk
+A47708,Tony Stark,Health,Approved,Medium,Underwriter_3,Pending,$21921,Approved,Yes,Increased premium due to high risk
+A64885,Steve Rogers,Health,Pending,Low,Underwriter_4,Completed,$21567,Approved,Yes,Increased premium due to high risk
+A77261,Steve Rogers,Critical Illness,Declined,Low,Underwriter_4,Pending,$43689,Approved,Yes,Standard premium
+A40373,Steve Rogers,Term Life,Pending,Low,Underwriter_3,Completed,$36137,Rejected,No,Increased premium due to high risk
+A56164,Clint Barton,Life,Declined,Medium,Underwriter_1,Completed,$9207,Rejected,Yes,Standard premium
+A51179,Clint Barton,Term Life,Pending,High,Underwriter_1,Pending,$13537,Rejected,Yes,Increased premium due to high risk
+A48116,Steve Rogers,Life,Approved,Low,Underwriter_5,Completed,$33288,Pending,No,Standard premium
+A19305,Natasha Romanoff,Life,Approved,Low,Underwriter_1,Completed,$6172,Rejected,Yes,Standard premium
+A11363,Clint Barton,Term Life,Pending,Low,Underwriter_1,Completed,$39048,Approved,No,Increased premium due to high risk
+A53153,Steve Rogers,Health,Declined,Medium,Underwriter_3,Completed,$11107,Pending,Yes,Increased premium due to high risk
+A30835,Tony Stark,Health,Pending,High,Underwriter_1,Pending,$26556,Rejected,Yes,Increased premium due to high risk
+A52041,Tony Stark,Health,Declined,Low,Underwriter_5,Not Required,$16445,Rejected,Yes,Increased premium due to high risk
+A73721,Bruce Banner,Critical Illness,Declined,High,Underwriter_2,Pending,$18507,Rejected,No,Standard premium
+A19293,Bruce Banner,Term Life,Declined,Low,Underwriter_5,Not Required,$5302,Approved,Yes,Standard premium
+A80458,Clint Barton,Critical Illness,Pending,Medium,Underwriter_2,Pending,$32150,Pending,No,Standard premium
+A59052,Steve Rogers,Life,Approved,High,Underwriter_1,Pending,$28228,Pending,No,Standard premium
+A34814,Tony Stark,Critical Illness,Pending,Low,Underwriter_3,Not Required,$16063,Approved,Yes,Increased premium due to high risk
+A99215,Bruce Banner,Critical Illness,Declined,High,Underwriter_2,Completed,$5382,Rejected,Yes,Increased premium due to high risk
+A21938,Steve Rogers,Health,Approved,Medium,Underwriter_4,Not Required,$9181,Rejected,Yes,Standard premium
+A43707,Tony Stark,Term Life,Pending,Medium,Underwriter_5,Completed,$47425,Rejected,No,Increased premium due to high risk
+A98840,Clint Barton,Life,Declined,High,Underwriter_3,Not Required,$32140,Pending,No,Standard premium
+A14582,Bruce Banner,Critical Illness,Approved,High,Underwriter_2,Completed,$16803,Pending,No,Increased premium due to high risk
+A78329,Natasha Romanoff,Health,Approved,Low,Underwriter_1,Completed,$45854,Approved,Yes,Increased premium due to high risk
+A31030,Natasha Romanoff,Health,Pending,High,Underwriter_1,Not Required,$22305,Pending,No,Increased premium due to high risk
+A52296,Natasha Romanoff,Life,Approved,High,Underwriter_4,Not Required,$11779,Pending,Yes,Increased premium due to high risk
+A64941,Tony Stark,Term Life,Declined,Medium,Underwriter_5,Pending,$32010,Approved,Yes,Increased premium due to high risk
+A63011,Steve Rogers,Critical Illness,Pending,Medium,Underwriter_3,Not Required,$10655,Rejected,Yes,Standard premium
+A35900,Natasha Romanoff,Critical Illness,Declined,Medium,Underwriter_4,Not Required,$39282,Approved,No,Standard premium
+A77833,Bruce Banner,Term Life,Pending,Low,Underwriter_3,Pending,$24943,Approved,Yes,Standard premium
+A50003,Steve Rogers,Health,Pending,High,Underwriter_4,Pending,$23178,Rejected,No,Standard premium
+A44482,Tony Stark,Life,Approved,Medium,Underwriter_4,Completed,$20352,Pending,No,Increased premium due to high risk
+A51540,Bruce Banner,Health,Declined,Medium,Underwriter_1,Pending,$30974,Rejected,Yes,Increased premium due to high risk
+A72337,Tony Stark,Term Life,Approved,Medium,Underwriter_3,Not Required,$28100,Pending,Yes,Standard premium
+A14650,Steve Rogers,Critical Illness,Approved,Low,Underwriter_4,Not Required,$20649,Approved,No,Standard premium
+A25900,Steve Rogers,Health,Pending,High,Underwriter_2,Pending,$29983,Approved,No,Increased premium due to high risk
+A34134,Clint Barton,Health,Declined,Low,Underwriter_4,Pending,$10169,Rejected,No,Standard premium
+A88464,Bruce Banner,Health,Approved,High,Underwriter_1,Pending,$12295,Rejected,No,Increased premium due to high risk
+A31440,Natasha Romanoff,Critical Illness,Approved,Medium,Underwriter_2,Completed,$29116,Approved,Yes,Increased premium due to high risk
+A60823,Bruce Banner,Health,Pending,Low,Underwriter_5,Pending,$45534,Rejected,Yes,Increased premium due to high risk
+A93504,Natasha Romanoff,Term Life,Pending,Low,Underwriter_3,Pending,$48131,Rejected,No,Standard premium
+A12252,Clint Barton,Term Life,Pending,High,Underwriter_4,Not Required,$12238,Approved,No,Increased premium due to high risk
+A58175,Natasha Romanoff,Term Life,Pending,High,Underwriter_2,Completed,$30357,Approved,Yes,Increased premium due to high risk
+A10867,Bruce Banner,Critical Illness,Pending,High,Underwriter_5,Pending,$48576,Pending,Yes,Increased premium due to high risk
+A70152,Steve Rogers,Term Life,Declined,High,Underwriter_5,Completed,$44327,Approved,No,Increased premium due to high risk
+A64563,Steve Rogers,Life,Declined,High,Underwriter_2,Pending,$19208,Pending,Yes,Standard premium
+A34918,Tony Stark,Critical Illness,Declined,Medium,Underwriter_2,Completed,$38433,Rejected,Yes,Standard premium
+A92567,Bruce Banner,Critical Illness,Declined,Low,Underwriter_4,Not Required,$34810,Rejected,No,Standard premium
+A66956,Natasha Romanoff,Life,Pending,Low,Underwriter_3,Pending,$17954,Approved,No,Standard premium
+A83180,Steve Rogers,Term Life,Declined,High,Underwriter_3,Not Required,$35578,Rejected,Yes,Standard premium
+A74481,Bruce Banner,Health,Pending,Low,Underwriter_2,Pending,$39469,Approved,No,Standard premium
+A45672,Natasha Romanoff,Life,Pending,Medium,Underwriter_1,Completed,$25563,Approved,No,Standard premium
+A49981,Tony Stark,Term Life,Approved,High,Underwriter_3,Completed,$17807,Approved,Yes,Standard premium
+A57032,Natasha Romanoff,Term Life,Approved,Medium,Underwriter_3,Pending,$9081,Pending,No,Standard premium
+A64143,Steve Rogers,Life,Pending,Medium,Underwriter_1,Completed,$23176,Approved,Yes,Increased premium due to high risk
+A62360,Steve Rogers,Critical Illness,Pending,Medium,Underwriter_1,Pending,$11947,Pending,No,Standard premium
+A74845,Tony Stark,Health,Declined,Low,Underwriter_4,Not Required,$14241,Pending,No,Increased premium due to high risk
+A45013,Tony Stark,Term Life,Declined,Medium,Underwriter_4,Completed,$30039,Pending,No,Standard premium
+A28240,Steve Rogers,Health,Pending,High,Underwriter_4,Not Required,$45286,Rejected,No,Standard premium
+A12675,Tony Stark,Term Life,Declined,High,Underwriter_2,Completed,$39695,Pending,No,Increased premium due to high risk
+A42385,Natasha Romanoff,Term Life,Approved,Medium,Underwriter_1,Not Required,$38452,Rejected,No,Standard premium
+A33162,Steve Rogers,Health,Pending,Low,Underwriter_4,Completed,$28038,Pending,Yes,Increased premium due to high risk
+A37913,Bruce Banner,Health,Pending,Low,Underwriter_3,Pending,$33676,Pending,Yes,Increased premium due to high risk
+A60292,Bruce Banner,Critical Illness,Declined,High,Underwriter_5,Completed,$21985,Pending,No,Standard premium
+A77897,Natasha Romanoff,Term Life,Pending,High,Underwriter_2,Pending,$15885,Pending,No,Increased premium due to high risk
+A36718,Tony Stark,Health,Approved,Medium,Underwriter_4,Pending,$36760,Pending,No,Standard premium
+A34167,Natasha Romanoff,Life,Declined,Medium,Underwriter_1,Completed,$44827,Approved,Yes,Increased premium due to high risk
+A17686,Natasha Romanoff,Health,Approved,High,Underwriter_1,Pending,$15706,Approved,Yes,Increased premium due to high risk
+A60613,Bruce Banner,Term Life,Approved,Low,Underwriter_2,Completed,$28374,Approved,No,Increased premium due to high risk
+A82768,Bruce Banner,Health,Pending,High,Underwriter_5,Not Required,$37221,Approved,Yes,Standard premium
+A89486,Bruce Banner,Term Life,Declined,Medium,Underwriter_5,Pending,$18035,Rejected,Yes,Increased premium due to high risk
+A64162,Clint Barton,Term Life,Approved,High,Underwriter_3,Completed,$47568,Rejected,Yes,Standard premium
+A46044,Bruce Banner,Health,Pending,High,Underwriter_4,Completed,$40636,Rejected,No,Standard premium
+A18783,Natasha Romanoff,Life,Declined,Low,Underwriter_1,Completed,$9703,Approved,No,Standard premium
+A33160,Steve Rogers,Term Life,Approved,Low,Underwriter_2,Not Required,$18876,Rejected,Yes,Increased premium due to high risk
+A25224,Clint Barton,Health,Approved,High,Underwriter_1,Completed,$24649,Pending,No,Increased premium due to high risk
+A42504,Tony Stark,Life,Pending,Low,Underwriter_4,Not Required,$14599,Rejected,Yes,Increased premium due to high risk
+A33282,Bruce Banner,Health,Pending,Low,Underwriter_4,Not Required,$36464,Approved,Yes,Increased premium due to high risk
+A80330,Tony Stark,Term Life,Approved,Low,Underwriter_4,Not Required,$44244,Pending,Yes,Standard premium
+A40472,Bruce Banner,Critical Illness,Declined,High,Underwriter_2,Not Required,$14007,Pending,Yes,Standard premium
+A44862,Bruce Banner,Health,Pending,Low,Underwriter_5,Completed,$39976,Rejected,Yes,Standard premium
+A45505,Tony Stark,Critical Illness,Declined,High,Underwriter_1,Completed,$20005,Pending,No,Increased premium due to high risk
+A93158,Clint Barton,Health,Pending,High,Underwriter_4,Pending,$48362,Rejected,Yes,Increased premium due to high risk
+A85199,Tony Stark,Term Life,Declined,Low,Underwriter_5,Not Required,$6589,Approved,Yes,Increased premium due to high risk
+A36605,Natasha Romanoff,Health,Approved,Medium,Underwriter_2,Completed,$45910,Approved,Yes,Increased premium due to high risk
+A24817,Tony Stark,Term Life,Pending,Medium,Underwriter_5,Not Required,$27451,Approved,Yes,Increased premium due to high risk
+A90637,Steve Rogers,Critical Illness,Declined,Low,Underwriter_1,Not Required,$43031,Pending,Yes,Increased premium due to high risk
+A84095,Clint Barton,Life,Declined,Medium,Underwriter_1,Completed,$39710,Approved,Yes,Standard premium
+A79438,Natasha Romanoff,Health,Declined,Low,Underwriter_2,Pending,$10764,Pending,No,Standard premium
+A31892,Clint Barton,Term Life,Pending,High,Underwriter_2,Not Required,$6295,Pending,No,Standard premium
+A62666,Bruce Banner,Term Life,Approved,High,Underwriter_4,Completed,$47134,Approved,Yes,Increased premium due to high risk
+A28171,Tony Stark,Term Life,Declined,Low,Underwriter_1,Completed,$5783,Pending,No,Increased premium due to high risk
+A38277,Bruce Banner,Health,Declined,Medium,Underwriter_5,Completed,$48867,Pending,No,Increased premium due to high risk
+A34284,Clint Barton,Term Life,Approved,Medium,Underwriter_5,Not Required,$33527,Approved,Yes,Increased premium due to high risk
+A22015,Steve Rogers,Critical Illness,Approved,Low,Underwriter_4,Not Required,$45514,Approved,Yes,Increased premium due to high risk
+A92126,Tony Stark,Life,Declined,High,Underwriter_3,Pending,$45158,Approved,Yes,Increased premium due to high risk
+A51893,Bruce Banner,Life,Approved,High,Underwriter_4,Not Required,$40488,Rejected,Yes,Standard premium
+A76629,Natasha Romanoff,Health,Pending,Low,Underwriter_1,Not Required,$47044,Rejected,No,Increased premium due to high risk
+A26587,Bruce Banner,Life,Approved,High,Underwriter_1,Not Required,$18117,Pending,Yes,Standard premium
+A80993,Tony Stark,Health,Declined,Low,Underwriter_2,Completed,$10877,Pending,Yes,Standard premium
+A87090,Natasha Romanoff,Health,Approved,Low,Underwriter_1,Pending,$43866,Approved,Yes,Increased premium due to high risk
+A94730,Clint Barton,Health,Approved,Low,Underwriter_4,Not Required,$39845,Pending,No,Increased premium due to high risk
+A28062,Bruce Banner,Life,Pending,Low,Underwriter_1,Not Required,$39215,Approved,Yes,Standard premium
+A37595,Tony Stark,Life,Pending,High,Underwriter_5,Not Required,$38820,Rejected,Yes,Standard premium
+A26800,Bruce Banner,Term Life,Approved,Medium,Underwriter_3,Pending,$37227,Approved,Yes,Increased premium due to high risk
+A43367,Natasha Romanoff,Term Life,Pending,High,Underwriter_1,Completed,$47666,Pending,Yes,Standard premium
+A91592,Natasha Romanoff,Critical Illness,Declined,High,Underwriter_1,Pending,$30505,Pending,Yes,Increased premium due to high risk
+A69691,Bruce Banner,Life,Pending,Low,Underwriter_4,Pending,$13692,Rejected,Yes,Standard premium
+A79249,Bruce Banner,Term Life,Approved,Medium,Underwriter_4,Not Required,$32590,Rejected,Yes,Standard premium
+A56289,Natasha Romanoff,Term Life,Approved,Medium,Underwriter_1,Completed,$28605,Approved,No,Standard premium
+A79086,Bruce Banner,Health,Approved,Low,Underwriter_4,Not Required,$27740,Rejected,No,Standard premium
+A40579,Tony Stark,Critical Illness,Approved,Medium,Underwriter_1,Completed,$8045,Pending,Yes,Standard premium
+A39608,Tony Stark,Critical Illness,Declined,Low,Underwriter_2,Not Required,$40442,Rejected,No,Increased premium due to high risk
+A96690,Clint Barton,Critical Illness,Declined,Low,Underwriter_4,Not Required,$22644,Pending,Yes,Increased premium due to high risk
+A25090,Clint Barton,Life,Declined,Medium,Underwriter_1,Completed,$5504,Approved,No,Standard premium
+A40593,Tony Stark,Critical Illness,Declined,High,Underwriter_1,Pending,$30476,Rejected,No,Increased premium due to high risk
+A64111,Steve Rogers,Life,Declined,High,Underwriter_5,Completed,$24764,Pending,Yes,Increased premium due to high risk
+A55510,Tony Stark,Term Life,Declined,High,Underwriter_2,Completed,$37801,Pending,Yes,Standard premium
+A35301,Tony Stark,Health,Pending,Medium,Underwriter_1,Completed,$27260,Pending,Yes,Increased premium due to high risk
+A80733,Tony Stark,Critical Illness,Declined,High,Underwriter_3,Not Required,$21101,Pending,No,Standard premium
+A72626,Natasha Romanoff,Health,Declined,Medium,Underwriter_4,Not Required,$28626,Approved,No,Standard premium
+A74608,Bruce Banner,Life,Declined,High,Underwriter_3,Not Required,$35862,Approved,Yes,Standard premium
+A27256,Tony Stark,Health,Approved,High,Underwriter_4,Completed,$9162,Rejected,Yes,Standard premium
+A13114,Tony Stark,Critical Illness,Approved,Medium,Underwriter_5,Completed,$38340,Rejected,Yes,Increased premium due to high risk
+A59267,Clint Barton,Critical Illness,Declined,Medium,Underwriter_3,Not Required,$10039,Pending,No,Increased premium due to high risk
+A58799,Tony Stark,Health,Approved,Low,Underwriter_5,Pending,$24411,Approved,No,Standard premium
+A81132,Tony Stark,Health,Pending,Low,Underwriter_4,Completed,$21435,Rejected,No,Standard premium
+A86283,Tony Stark,Term Life,Pending,Low,Underwriter_2,Not Required,$5362,Rejected,Yes,Increased premium due to high risk
+A55915,Bruce Banner,Health,Approved,Medium,Underwriter_3,Not Required,$48121,Pending,Yes,Standard premium
+A50586,Bruce Banner,Critical Illness,Pending,High,Underwriter_2,Completed,$6403,Approved,No,Increased premium due to high risk
+A28536,Steve Rogers,Health,Pending,High,Underwriter_2,Not Required,$28570,Rejected,No,Standard premium
+A53254,Steve Rogers,Health,Approved,Low,Underwriter_4,Not Required,$34347,Pending,No,Standard premium
+A65605,Bruce Banner,Critical Illness,Approved,Medium,Underwriter_5,Pending,$9191,Approved,No,Increased premium due to high risk
+A48384,Steve Rogers,Life,Declined,Medium,Underwriter_3,Completed,$28907,Rejected,Yes,Increased premium due to high risk
+A74417,Clint Barton,Term Life,Pending,Medium,Underwriter_5,Completed,$14515,Approved,No,Increased premium due to high risk
+A32380,Bruce Banner,Life,Pending,Low,Underwriter_3,Pending,$23195,Rejected,No,Increased premium due to high risk
+A32748,Natasha Romanoff,Critical Illness,Pending,Low,Underwriter_1,Pending,$25287,Pending,No,Standard premium
+A86086,Steve Rogers,Life,Declined,Medium,Underwriter_5,Not Required,$9450,Rejected,No,Increased premium due to high risk
+A67682,Clint Barton,Life,Declined,Low,Underwriter_2,Not Required,$17498,Approved,No,Standard premium
+A36333,Tony Stark,Health,Approved,Low,Underwriter_2,Not Required,$6511,Approved,Yes,Increased premium due to high risk
+A11471,Clint Barton,Term Life,Declined,Low,Underwriter_5,Not Required,$19790,Rejected,No,Increased premium due to high risk
+A18699,Bruce Banner,Health,Pending,High,Underwriter_4,Not Required,$12903,Approved,Yes,Standard premium
+A33903,Steve Rogers,Health,Pending,High,Underwriter_3,Not Required,$44933,Rejected,No,Increased premium due to high risk
+A72239,Bruce Banner,Term Life,Approved,Low,Underwriter_5,Completed,$22236,Approved,No,Standard premium
+A85437,Natasha Romanoff,Life,Declined,Medium,Underwriter_4,Pending,$10136,Pending,No,Standard premium
+A34339,Tony Stark,Life,Pending,High,Underwriter_5,Pending,$21734,Pending,Yes,Increased premium due to high risk
+A22562,Natasha Romanoff,Health,Pending,Medium,Underwriter_1,Pending,$9409,Approved,No,Increased premium due to high risk
+A16323,Tony Stark,Life,Declined,Medium,Underwriter_2,Pending,$23638,Approved,Yes,Increased premium due to high risk
+A57029,Tony Stark,Term Life,Approved,Low,Underwriter_3,Not Required,$48504,Pending,No,Increased premium due to high risk
+A25747,Steve Rogers,Critical Illness,Pending,Medium,Underwriter_2,Not Required,$15460,Approved,Yes,Increased premium due to high risk
+A60803,Clint Barton,Term Life,Declined,High,Underwriter_3,Not Required,$27612,Rejected,Yes,Standard premium
+A82513,Bruce Banner,Life,Pending,Medium,Underwriter_1,Not Required,$11965,Approved,No,Standard premium
+A42541,Steve Rogers,Term Life,Approved,High,Underwriter_5,Completed,$9549,Rejected,No,Standard premium
+A77048,Natasha Romanoff,Health,Pending,High,Underwriter_5,Pending,$5134,Rejected,Yes,Increased premium due to high risk
+A77449,Clint Barton,Critical Illness,Pending,High,Underwriter_1,Not Required,$45275,Rejected,No,Increased premium due to high risk
+A16988,Bruce Banner,Term Life,Approved,Low,Underwriter_4,Pending,$42653,Rejected,No,Increased premium due to high risk
+A68648,Steve Rogers,Health,Approved,Low,Underwriter_3,Not Required,$8791,Rejected,No,Increased premium due to high risk
+A11769,Tony Stark,Life,Pending,High,Underwriter_2,Not Required,$45190,Pending,No,Standard premium
+A14762,Bruce Banner,Health,Declined,High,Underwriter_4,Pending,$37640,Rejected,No,Increased premium due to high risk
+A14079,Tony Stark,Critical Illness,Declined,Medium,Underwriter_1,Completed,$32102,Pending,Yes,Increased premium due to high risk
+A46834,Natasha Romanoff,Critical Illness,Declined,Low,Underwriter_5,Completed,$35887,Pending,No,Standard premium
+A68743,Natasha Romanoff,Life,Pending,Medium,Underwriter_3,Completed,$11280,Pending,No,Increased premium due to high risk
+A51217,Steve Rogers,Term Life,Approved,Medium,Underwriter_1,Completed,$40019,Approved,Yes,Standard premium
+A92232,Natasha Romanoff,Life,Approved,Medium,Underwriter_1,Pending,$15286,Rejected,No,Increased premium due to high risk
+A58915,Tony Stark,Term Life,Declined,High,Underwriter_2,Not Required,$46382,Pending,Yes,Increased premium due to high risk
+A47662,Steve Rogers,Life,Approved,Medium,Underwriter_1,Not Required,$27386,Rejected,Yes,Standard premium
+A68879,Steve Rogers,Life,Pending,Low,Underwriter_3,Pending,$13407,Pending,Yes,Increased premium due to high risk
+A98062,Steve Rogers,Health,Pending,Medium,Underwriter_3,Completed,$23152,Rejected,No,Increased premium due to high risk
+A96294,Bruce Banner,Critical Illness,Approved,High,Underwriter_2,Not Required,$37280,Approved,No,Increased premium due to high risk
+A55522,Steve Rogers,Term Life,Declined,Low,Underwriter_2,Pending,$19353,Rejected,No,Increased premium due to high risk
+A11608,Clint Barton,Life,Pending,Medium,Underwriter_3,Pending,$38783,Rejected,Yes,Increased premium due to high risk
+A68715,Clint Barton,Life,Declined,Medium,Underwriter_4,Pending,$22984,Rejected,No,Standard premium
+A41240,Natasha Romanoff,Critical Illness,Pending,High,Underwriter_2,Pending,$23622,Rejected,Yes,Increased premium due to high risk
+A73206,Tony Stark,Term Life,Pending,Medium,Underwriter_4,Completed,$14482,Rejected,Yes,Increased premium due to high risk
+A83215,Tony Stark,Health,Declined,Medium,Underwriter_5,Pending,$26931,Rejected,Yes,Increased premium due to high risk
+A15879,Tony Stark,Term Life,Approved,Low,Underwriter_2,Not Required,$19332,Approved,No,Standard premium
+A80980,Bruce Banner,Health,Declined,Low,Underwriter_2,Pending,$33751,Approved,No,Increased premium due to high risk
+A63407,Steve Rogers,Life,Approved,Low,Underwriter_1,Not Required,$20753,Pending,No,Increased premium due to high risk
+A25860,Steve Rogers,Life,Declined,Medium,Underwriter_5,Not Required,$39311,Rejected,Yes,Increased premium due to high risk
+A32134,Bruce Banner,Term Life,Approved,Medium,Underwriter_4,Not Required,$16303,Rejected,Yes,Standard premium
+A31370,Natasha Romanoff,Life,Pending,High,Underwriter_1,Pending,$19035,Approved,Yes,Standard premium
+A45809,Natasha Romanoff,Life,Pending,Medium,Underwriter_1,Not Required,$28444,Pending,No,Increased premium due to high risk
+A63589,Natasha Romanoff,Term Life,Declined,High,Underwriter_1,Completed,$34992,Approved,Yes,Standard premium
+A26696,Steve Rogers,Term Life,Approved,Medium,Underwriter_3,Completed,$20183,Approved,No,Increased premium due to high risk
+A28896,Tony Stark,Health,Declined,Low,Underwriter_4,Completed,$37917,Approved,Yes,Standard premium
+A58582,Steve Rogers,Life,Approved,Low,Underwriter_3,Pending,$41035,Approved,Yes,Increased premium due to high risk
+A95627,Tony Stark,Critical Illness,Pending,High,Underwriter_3,Pending,$26337,Pending,Yes,Increased premium due to high risk
+A24656,Natasha Romanoff,Life,Pending,High,Underwriter_4,Completed,$24005,Approved,Yes,Increased premium due to high risk
+A68015,Bruce Banner,Term Life,Pending,Medium,Underwriter_1,Pending,$31914,Pending,No,Increased premium due to high risk
+A75941,Bruce Banner,Health,Declined,High,Underwriter_1,Completed,$42380,Rejected,No,Standard premium
+A38908,Tony Stark,Health,Pending,Low,Underwriter_3,Not Required,$14246,Approved,No,Standard premium
+A32834,Tony Stark,Term Life,Approved,High,Underwriter_1,Completed,$16298,Approved,No,Standard premium
+A75953,Clint Barton,Term Life,Approved,High,Underwriter_1,Not Required,$49886,Pending,Yes,Standard premium
+A56005,Natasha Romanoff,Life,Declined,High,Underwriter_4,Not Required,$38661,Rejected,No,Standard premium
+A69821,Bruce Banner,Term Life,Approved,High,Underwriter_5,Completed,$12437,Pending,Yes,Standard premium
+A93044,Natasha Romanoff,Life,Pending,High,Underwriter_1,Pending,$37577,Approved,Yes,Standard premium
+A55673,Natasha Romanoff,Health,Approved,High,Underwriter_5,Completed,$40006,Approved,No,Standard premium
+A35183,Tony Stark,Health,Pending,Low,Underwriter_1,Completed,$18234,Rejected,Yes,Standard premium
+A41635,Tony Stark,Health,Approved,High,Underwriter_2,Not Required,$10929,Pending,No,Increased premium due to high risk
+A44970,Natasha Romanoff,Life,Declined,Low,Underwriter_4,Not Required,$18937,Approved,No,Increased premium due to high risk
+A28818,Bruce Banner,Life,Approved,Medium,Underwriter_1,Completed,$27689,Approved,Yes,Standard premium
+A11604,Tony Stark,Critical Illness,Pending,Medium,Underwriter_5,Pending,$20592,Approved,No,Increased premium due to high risk
+A73878,Tony Stark,Critical Illness,Approved,High,Underwriter_4,Pending,$39621,Pending,No,Standard premium
+A26017,Steve Rogers,Life,Pending,Low,Underwriter_4,Pending,$43557,Approved,No,Increased premium due to high risk
+A34643,Clint Barton,Life,Pending,Medium,Underwriter_5,Not Required,$42324,Approved,No,Standard premium
+A72813,Natasha Romanoff,Health,Approved,Low,Underwriter_4,Not Required,$25761,Approved,No,Standard premium
+A25085,Natasha Romanoff,Life,Pending,High,Underwriter_2,Not Required,$22705,Pending,No,Increased premium due to high risk
+A70114,Tony Stark,Critical Illness,Declined,High,Underwriter_3,Completed,$46257,Rejected,Yes,Standard premium
+A51962,Clint Barton,Term Life,Declined,Medium,Underwriter_2,Completed,$25846,Rejected,Yes,Increased premium due to high risk
+A53496,Steve Rogers,Health,Declined,High,Underwriter_5,Pending,$7118,Approved,No,Increased premium due to high risk
+A83611,Bruce Banner,Health,Approved,High,Underwriter_4,Not Required,$36564,Approved,Yes,Increased premium due to high risk
+A90481,Steve Rogers,Term Life,Declined,Low,Underwriter_1,Pending,$22545,Pending,No,Increased premium due to high risk
+A26953,Clint Barton,Critical Illness,Approved,Low,Underwriter_4,Completed,$26247,Rejected,Yes,Standard premium
+A25315,Steve Rogers,Critical Illness,Pending,Medium,Underwriter_3,Pending,$10492,Rejected,No,Increased premium due to high risk
+A95956,Natasha Romanoff,Life,Declined,Medium,Underwriter_2,Pending,$17211,Pending,Yes,Increased premium due to high risk
+A72019,Bruce Banner,Term Life,Approved,Medium,Underwriter_3,Not Required,$24673,Approved,No,Increased premium due to high risk
+A13679,Clint Barton,Health,Pending,Low,Underwriter_3,Pending,$17156,Rejected,No,Increased premium due to high risk
+A53569,Steve Rogers,Term Life,Pending,High,Underwriter_3,Pending,$23821,Pending,Yes,Increased premium due to high risk
+A66171,Clint Barton,Critical Illness,Approved,Low,Underwriter_3,Not Required,$6442,Pending,No,Increased premium due to high risk
+A60586,Tony Stark,Term Life,Approved,Low,Underwriter_4,Completed,$42624,Approved,No,Increased premium due to high risk
+A51887,Steve Rogers,Health,Pending,High,Underwriter_5,Pending,$35774,Pending,Yes,Standard premium
+A14894,Steve Rogers,Critical Illness,Approved,Medium,Underwriter_3,Pending,$26088,Pending,No,Standard premium
+A72416,Natasha Romanoff,Term Life,Pending,Medium,Underwriter_2,Completed,$23622,Pending,No,Standard premium
+A83352,Natasha Romanoff,Health,Declined,Low,Underwriter_4,Completed,$37769,Pending,No,Standard premium
+A39022,Tony Stark,Health,Pending,Medium,Underwriter_4,Completed,$48724,Pending,Yes,Standard premium
+A88635,Natasha Romanoff,Life,Declined,Medium,Underwriter_4,Not Required,$25842,Rejected,Yes,Increased premium due to high risk
+A67865,Tony Stark,Health,Declined,Low,Underwriter_2,Pending,$25192,Pending,Yes,Standard premium
+A17290,Tony Stark,Term Life,Approved,Low,Underwriter_3,Completed,$20308,Rejected,No,Standard premium
+A12732,Bruce Banner,Term Life,Approved,High,Underwriter_2,Completed,$34583,Rejected,No,Increased premium due to high risk
+A61795,Natasha Romanoff,Critical Illness,Approved,Low,Underwriter_2,Not Required,$36316,Approved,Yes,Increased premium due to high risk
+A74627,Steve Rogers,Health,Approved,High,Underwriter_1,Pending,$5728,Pending,No,Standard premium
+A49460,Bruce Banner,Health,Declined,Medium,Underwriter_4,Not Required,$7167,Pending,No,Standard premium
+A83467,Natasha Romanoff,Health,Declined,Low,Underwriter_1,Not Required,$49620,Approved,No,Standard premium
+A21327,Tony Stark,Life,Pending,Low,Underwriter_1,Completed,$30476,Pending,Yes,Standard premium
+A86292,Natasha Romanoff,Health,Approved,Low,Underwriter_4,Pending,$11589,Approved,Yes,Standard premium
+A12545,Bruce Banner,Life,Declined,High,Underwriter_5,Pending,$40549,Approved,No,Standard premium
+A18096,Bruce Banner,Life,Declined,Medium,Underwriter_1,Pending,$40664,Pending,Yes,Standard premium
+A58939,Bruce Banner,Health,Approved,Medium,Underwriter_1,Pending,$40620,Pending,No,Standard premium
+A69990,Clint Barton,Critical Illness,Approved,Low,Underwriter_2,Completed,$28181,Approved,Yes,Increased premium due to high risk
+A31556,Tony Stark,Term Life,Pending,Medium,Underwriter_2,Not Required,$42104,Approved,No,Standard premium
+A41589,Natasha Romanoff,Term Life,Pending,High,Underwriter_3,Not Required,$29974,Rejected,No,Increased premium due to high risk
+A28181,Steve Rogers,Life,Pending,Low,Underwriter_2,Not Required,$15779,Rejected,No,Standard premium
+A56647,Steve Rogers,Health,Pending,Medium,Underwriter_3,Not Required,$49478,Pending,No,Standard premium
+A53896,Tony Stark,Health,Declined,High,Underwriter_2,Pending,$47666,Rejected,No,Standard premium
+A91215,Steve Rogers,Critical Illness,Declined,Medium,Underwriter_2,Pending,$11734,Pending,Yes,Increased premium due to high risk
+A19909,Tony Stark,Life,Pending,Low,Underwriter_5,Pending,$36723,Approved,No,Standard premium
+A97254,Bruce Banner,Critical Illness,Pending,High,Underwriter_1,Not Required,$26059,Pending,Yes,Increased premium due to high risk
+A55968,Natasha Romanoff,Life,Approved,Medium,Underwriter_1,Pending,$6192,Pending,Yes,Standard premium
+A31276,Clint Barton,Life,Declined,High,Underwriter_4,Not Required,$30844,Pending,No,Standard premium
+A93896,Natasha Romanoff,Life,Declined,High,Underwriter_3,Completed,$30626,Approved,No,Standard premium
+A88521,Natasha Romanoff,Critical Illness,Approved,Low,Underwriter_4,Not Required,$40325,Rejected,No,Standard premium
+A75929,Natasha Romanoff,Critical Illness,Approved,High,Underwriter_2,Pending,$35378,Pending,No,Standard premium
+A30461,Natasha Romanoff,Health,Declined,Medium,Underwriter_5,Not Required,$14499,Pending,Yes,Increased premium due to high risk
+A91402,Tony Stark,Life,Pending,High,Underwriter_3,Pending,$35935,Rejected,Yes,Standard premium
+A24718,Clint Barton,Term Life,Approved,Low,Underwriter_3,Completed,$10391,Rejected,No,Increased premium due to high risk
+A44909,Natasha Romanoff,Life,Approved,Low,Underwriter_3,Completed,$20146,Pending,Yes,Increased premium due to high risk
+A99414,Steve Rogers,Term Life,Declined,High,Underwriter_5,Not Required,$11980,Rejected,No,Increased premium due to high risk
+A14224,Bruce Banner,Life,Declined,High,Underwriter_1,Not Required,$29355,Rejected,No,Increased premium due to high risk
+A67545,Steve Rogers,Term Life,Approved,High,Underwriter_3,Not Required,$20254,Rejected,Yes,Standard premium
+A69637,Clint Barton,Term Life,Declined,Medium,Underwriter_2,Not Required,$19273,Pending,No,Increased premium due to high risk
+A42480,Tony Stark,Life,Declined,Low,Underwriter_3,Completed,$30002,Rejected,Yes,Standard premium
+A40721,Natasha Romanoff,Critical Illness,Declined,Medium,Underwriter_1,Not Required,$13998,Rejected,Yes,Increased premium due to high risk
+A12645,Bruce Banner,Health,Approved,High,Underwriter_3,Completed,$12399,Pending,Yes,Increased premium due to high risk
+A33069,Natasha Romanoff,Health,Declined,Low,Underwriter_3,Pending,$34395,Rejected,Yes,Standard premium
+A15424,Clint Barton,Critical Illness,Declined,Low,Underwriter_1,Pending,$49310,Approved,Yes,Standard premium
+A94426,Natasha Romanoff,Term Life,Pending,Medium,Underwriter_1,Not Required,$41232,Approved,Yes,Increased premium due to high risk
+A56971,Tony Stark,Health,Declined,Medium,Underwriter_3,Pending,$42172,Approved,No,Standard premium
+A47259,Bruce Banner,Critical Illness,Pending,Medium,Underwriter_1,Pending,$20132,Approved,Yes,Increased premium due to high risk
+A90309,Clint Barton,Critical Illness,Pending,Low,Underwriter_5,Completed,$44581,Rejected,Yes,Standard premium
+A91444,Tony Stark,Term Life,Pending,Medium,Underwriter_5,Pending,$34017,Rejected,No,Increased premium due to high risk
+A16349,Bruce Banner,Term Life,Declined,High,Underwriter_4,Not Required,$33653,Pending,No,Increased premium due to high risk
+A48911,Steve Rogers,Critical Illness,Declined,Medium,Underwriter_4,Pending,$39063,Approved,No,Standard premium
+A92867,Bruce Banner,Term Life,Declined,Medium,Underwriter_3,Pending,$17912,Rejected,Yes,Standard premium
+A24972,Natasha Romanoff,Life,Approved,Medium,Underwriter_3,Completed,$23472,Rejected,Yes,Increased premium due to high risk
+A87804,Natasha Romanoff,Health,Pending,Low,Underwriter_1,Completed,$5390,Approved,No,Increased premium due to high risk
+A91092,Bruce Banner,Health,Approved,High,Underwriter_2,Not Required,$29749,Rejected,No,Increased premium due to high risk
+A95918,Clint Barton,Term Life,Pending,High,Underwriter_3,Completed,$49383,Approved,Yes,Increased premium due to high risk
+A12788,Clint Barton,Critical Illness,Approved,High,Underwriter_4,Not Required,$30321,Approved,No,Increased premium due to high risk
+A25764,Clint Barton,Term Life,Pending,Medium,Underwriter_4,Not Required,$47143,Rejected,Yes,Standard premium
+A91909,Bruce Banner,Health,Pending,Low,Underwriter_5,Pending,$33532,Pending,No,Standard premium
+A52767,Steve Rogers,Health,Approved,Medium,Underwriter_2,Not Required,$31784,Approved,No,Standard premium
+A63613,Clint Barton,Life,Declined,Low,Underwriter_4,Not Required,$14286,Pending,No,Standard premium
+A97083,Natasha Romanoff,Term Life,Approved,Low,Underwriter_4,Pending,$38998,Approved,No,Standard premium
+A74027,Tony Stark,Life,Pending,High,Underwriter_4,Pending,$45553,Rejected,Yes,Standard premium
+A56916,Bruce Banner,Health,Declined,High,Underwriter_3,Pending,$5227,Pending,No,Standard premium
+A38832,Bruce Banner,Life,Pending,High,Underwriter_1,Not Required,$25949,Pending,Yes,Standard premium
+A81300,Tony Stark,Life,Approved,Low,Underwriter_3,Completed,$15540,Pending,No,Increased premium due to high risk
+A76054,Natasha Romanoff,Health,Declined,Low,Underwriter_5,Pending,$45288,Approved,No,Standard premium
+A75247,Bruce Banner,Term Life,Declined,High,Underwriter_1,Completed,$47930,Rejected,No,Increased premium due to high risk
+A36417,Tony Stark,Life,Pending,Medium,Underwriter_4,Completed,$29320,Rejected,No,Standard premium
+A15894,Steve Rogers,Health,Pending,Low,Underwriter_3,Not Required,$42311,Rejected,No,Standard premium
+A32582,Natasha Romanoff,Health,Pending,Medium,Underwriter_4,Pending,$25133,Pending,Yes,Increased premium due to high risk
+A19125,Bruce Banner,Term Life,Declined,Medium,Underwriter_4,Not Required,$5646,Approved,No,Increased premium due to high risk
+A29964,Steve Rogers,Term Life,Pending,Low,Underwriter_4,Completed,$7808,Pending,No,Standard premium
+A66305,Clint Barton,Health,Pending,Medium,Underwriter_5,Pending,$5001,Rejected,Yes,Standard premium
+A47218,Steve Rogers,Life,Pending,Medium,Underwriter_5,Pending,$7762,Pending,No,Increased premium due to high risk
+A56808,Bruce Banner,Term Life,Declined,Medium,Underwriter_3,Not Required,$40570,Approved,Yes,Increased premium due to high risk
+A43184,Clint Barton,Critical Illness,Approved,Medium,Underwriter_4,Not Required,$37767,Approved,Yes,Standard premium
+A28938,Natasha Romanoff,Life,Pending,Medium,Underwriter_4,Pending,$9250,Approved,Yes,Increased premium due to high risk
+A39309,Bruce Banner,Critical Illness,Pending,Low,Underwriter_5,Completed,$27051,Approved,Yes,Standard premium
+A91600,Tony Stark,Health,Pending,Medium,Underwriter_1,Pending,$44090,Pending,Yes,Increased premium due to high risk
+A76235,Tony Stark,Term Life,Declined,High,Underwriter_1,Completed,$9331,Rejected,No,Standard premium
+A89017,Tony Stark,Health,Declined,High,Underwriter_1,Pending,$27932,Approved,Yes,Increased premium due to high risk
+A88874,Bruce Banner,Health,Declined,Medium,Underwriter_5,Pending,$20953,Approved,No,Increased premium due to high risk
+A31181,Natasha Romanoff,Health,Approved,Low,Underwriter_3,Completed,$27871,Pending,Yes,Increased premium due to high risk
+A92673,Clint Barton,Health,Approved,Medium,Underwriter_4,Not Required,$34601,Pending,No,Increased premium due to high risk
+A63825,Bruce Banner,Term Life,Pending,Medium,Underwriter_2,Pending,$27440,Rejected,Yes,Increased premium due to high risk
+A12422,Bruce Banner,Health,Declined,Medium,Underwriter_4,Pending,$17118,Approved,Yes,Standard premium
+A22345,Natasha Romanoff,Term Life,Pending,Medium,Underwriter_3,Pending,$31142,Rejected,Yes,Increased premium due to high risk
+A89647,Bruce Banner,Critical Illness,Declined,Low,Underwriter_1,Not Required,$28398,Rejected,No,Increased premium due to high risk
+A60726,Clint Barton,Life,Pending,Low,Underwriter_5,Completed,$36686,Rejected,Yes,Increased premium due to high risk
+A33810,Natasha Romanoff,Life,Approved,Medium,Underwriter_4,Not Required,$9856,Pending,No,Increased premium due to high risk
+A59996,Natasha Romanoff,Critical Illness,Approved,Low,Underwriter_3,Pending,$41051,Pending,No,Increased premium due to high risk
+A58410,Tony Stark,Life,Declined,High,Underwriter_4,Not Required,$8872,Approved,No,Standard premium
+A69822,Tony Stark,Life,Declined,Medium,Underwriter_5,Not Required,$7404,Approved,Yes,Standard premium
+A17990,Bruce Banner,Health,Declined,Medium,Underwriter_2,Not Required,$23282,Rejected,Yes,Standard premium
+A45685,Natasha Romanoff,Health,Declined,Medium,Underwriter_1,Not Required,$24731,Approved,Yes,Standard premium
+A73144,Steve Rogers,Critical Illness,Approved,Low,Underwriter_2,Pending,$9809,Rejected,No,Increased premium due to high risk
+A90705,Bruce Banner,Life,Declined,Medium,Underwriter_2,Completed,$32700,Pending,No,Standard premium
+A58691,Tony Stark,Health,Approved,Medium,Underwriter_1,Pending,$9488,Approved,No,Standard premium
+A22931,Clint Barton,Life,Pending,Medium,Underwriter_2,Pending,$47202,Rejected,No,Increased premium due to high risk
+A27065,Clint Barton,Life,Pending,High,Underwriter_5,Not Required,$42008,Approved,No,Increased premium due to high risk
+A89721,Steve Rogers,Term Life,Approved,High,Underwriter_3,Completed,$46247,Approved,No,Standard premium
+A42209,Clint Barton,Health,Approved,High,Underwriter_3,Completed,$11051,Pending,No,Standard premium
+A43949,Natasha Romanoff,Health,Declined,Low,Underwriter_1,Not Required,$12248,Rejected,No,Increased premium due to high risk
+A12300,Steve Rogers,Term Life,Approved,High,Underwriter_3,Not Required,$28192,Approved,No,Increased premium due to high risk
+A26833,Steve Rogers,Life,Declined,Low,Underwriter_5,Not Required,$25210,Approved,No,Standard premium
+A76898,Bruce Banner,Term Life,Pending,Low,Underwriter_3,Pending,$14926,Rejected,Yes,Increased premium due to high risk
+A58282,Natasha Romanoff,Health,Pending,Low,Underwriter_1,Pending,$39212,Approved,Yes,Standard premium
+A32436,Bruce Banner,Critical Illness,Declined,High,Underwriter_1,Pending,$33970,Rejected,Yes,Standard premium
+A58683,Steve Rogers,Term Life,Declined,Medium,Underwriter_4,Completed,$43010,Approved,Yes,Standard premium
+A57784,Steve Rogers,Critical Illness,Pending,Medium,Underwriter_3,Completed,$41770,Rejected,No,Increased premium due to high risk
+A41242,Steve Rogers,Critical Illness,Approved,High,Underwriter_1,Pending,$36404,Approved,No,Increased premium due to high risk
+A56939,Steve Rogers,Life,Approved,Low,Underwriter_3,Completed,$23598,Approved,No,Increased premium due to high risk
+A16653,Natasha Romanoff,Critical Illness,Pending,Medium,Underwriter_5,Completed,$42985,Approved,Yes,Increased premium due to high risk
+A75186,Bruce Banner,Critical Illness,Declined,High,Underwriter_2,Pending,$25659,Approved,Yes,Standard premium
+A30358,Steve Rogers,Health,Pending,High,Underwriter_5,Not Required,$42153,Pending,Yes,Standard premium
+A23552,Bruce Banner,Critical Illness,Pending,Low,Underwriter_3,Pending,$32161,Approved,No,Increased premium due to high risk
+A24318,Bruce Banner,Health,Declined,Medium,Underwriter_1,Completed,$20258,Rejected,Yes,Standard premium
+A68418,Tony Stark,Critical Illness,Pending,Medium,Underwriter_1,Pending,$17465,Approved,No,Standard premium
+A32516,Clint Barton,Life,Pending,Low,Underwriter_2,Completed,$48175,Pending,No,Standard premium
+A30811,Clint Barton,Health,Approved,Medium,Underwriter_1,Pending,$8016,Rejected,Yes,Increased premium due to high risk
+A75521,Bruce Banner,Critical Illness,Approved,Low,Underwriter_5,Not Required,$17607,Pending,No,Standard premium
+A74746,Natasha Romanoff,Life,Pending,High,Underwriter_4,Completed,$45658,Approved,No,Standard premium
+A23210,Natasha Romanoff,Term Life,Declined,Medium,Underwriter_1,Not Required,$30514,Rejected,No,Increased premium due to high risk
+A82595,Clint Barton,Life,Declined,Low,Underwriter_4,Pending,$14708,Approved,No,Standard premium
+A72470,Natasha Romanoff,Life,Pending,Medium,Underwriter_3,Pending,$29701,Approved,No,Standard premium
+A73743,Natasha Romanoff,Life,Approved,High,Underwriter_1,Not Required,$43789,Approved,Yes,Standard premium
+A37464,Natasha Romanoff,Term Life,Approved,Low,Underwriter_5,Not Required,$28000,Pending,Yes,Increased premium due to high risk
+A39946,Natasha Romanoff,Health,Pending,Low,Underwriter_1,Not Required,$7586,Rejected,Yes,Increased premium due to high risk
+A19712,Steve Rogers,Term Life,Pending,Medium,Underwriter_1,Completed,$36763,Pending,No,Standard premium
+A52173,Tony Stark,Health,Approved,Low,Underwriter_2,Pending,$11617,Approved,No,Standard premium
+A12162,Tony Stark,Life,Approved,High,Underwriter_1,Pending,$13721,Approved,No,Standard premium
+A88209,Tony Stark,Life,Pending,Medium,Underwriter_4,Completed,$7023,Rejected,Yes,Increased premium due to high risk
+A79414,Clint Barton,Health,Approved,Medium,Underwriter_3,Pending,$18346,Pending,No,Increased premium due to high risk
+A11774,Natasha Romanoff,Life,Approved,Low,Underwriter_5,Completed,$37804,Rejected,Yes,Increased premium due to high risk
+A51239,Steve Rogers,Life,Approved,High,Underwriter_1,Pending,$12399,Rejected,Yes,Increased premium due to high risk
+A35380,Bruce Banner,Life,Approved,Medium,Underwriter_2,Pending,$28376,Rejected,Yes,Standard premium
+A74641,Clint Barton,Critical Illness,Declined,Medium,Underwriter_5,Completed,$37426,Pending,No,Standard premium
+A83895,Steve Rogers,Term Life,Pending,Medium,Underwriter_5,Pending,$31234,Approved,No,Increased premium due to high risk
+A89998,Bruce Banner,Term Life,Declined,High,Underwriter_3,Not Required,$48377,Approved,Yes,Standard premium
+A34367,Steve Rogers,Term Life,Approved,High,Underwriter_1,Pending,$21372,Approved,No,Standard premium
+A34978,Natasha Romanoff,Life,Approved,High,Underwriter_1,Pending,$44234,Approved,Yes,Increased premium due to high risk
+A21126,Natasha Romanoff,Health,Declined,Medium,Underwriter_5,Pending,$20686,Approved,No,Standard premium
+A70575,Natasha Romanoff,Critical Illness,Declined,High,Underwriter_1,Pending,$17571,Approved,No,Standard premium
+A70616,Natasha Romanoff,Life,Declined,Medium,Underwriter_3,Pending,$33820,Approved,No,Increased premium due to high risk
+A18502,Clint Barton,Health,Declined,Low,Underwriter_3,Pending,$17250,Approved,Yes,Standard premium
+A63702,Bruce Banner,Critical Illness,Approved,Low,Underwriter_5,Completed,$45181,Rejected,No,Increased premium due to high risk
+A29675,Steve Rogers,Health,Declined,Medium,Underwriter_2,Not Required,$49376,Approved,Yes,Increased premium due to high risk
+A43741,Clint Barton,Term Life,Declined,Low,Underwriter_1,Completed,$48032,Pending,No,Standard premium
+A46124,Natasha Romanoff,Life,Declined,High,Underwriter_3,Not Required,$9499,Rejected,No,Increased premium due to high risk
+A27248,Clint Barton,Health,Pending,Low,Underwriter_5,Completed,$42454,Approved,No,Increased premium due to high risk
+A66209,Bruce Banner,Term Life,Approved,Medium,Underwriter_2,Completed,$21053,Rejected,Yes,Increased premium due to high risk
+A32228,Tony Stark,Health,Declined,Medium,Underwriter_3,Pending,$10883,Rejected,Yes,Increased premium due to high risk
+A59400,Tony Stark,Critical Illness,Pending,High,Underwriter_4,Not Required,$6127,Approved,Yes,Increased premium due to high risk
+A37620,Clint Barton,Life,Pending,Low,Underwriter_4,Pending,$35480,Pending,Yes,Standard premium
+A80956,Tony Stark,Life,Pending,Medium,Underwriter_5,Completed,$38904,Rejected,Yes,Increased premium due to high risk
+A76861,Natasha Romanoff,Life,Declined,Medium,Underwriter_3,Not Required,$36286,Pending,No,Increased premium due to high risk
+A66897,Tony Stark,Critical Illness,Approved,Medium,Underwriter_5,Completed,$10504,Rejected,Yes,Increased premium due to high risk
+A73271,Bruce Banner,Term Life,Pending,High,Underwriter_1,Not Required,$40418,Rejected,No,Increased premium due to high risk
+A37428,Bruce Banner,Term Life,Approved,High,Underwriter_2,Not Required,$49247,Rejected,Yes,Increased premium due to high risk
+A25349,Bruce Banner,Life,Approved,High,Underwriter_2,Completed,$32978,Rejected,Yes,Standard premium
+A50938,Tony Stark,Critical Illness,Declined,High,Underwriter_2,Not Required,$13604,Rejected,No,Increased premium due to high risk
+A79805,Steve Rogers,Health,Approved,Medium,Underwriter_1,Pending,$18791,Rejected,No,Standard premium
+A25519,Tony Stark,Critical Illness,Declined,Low,Underwriter_1,Pending,$49283,Pending,Yes,Increased premium due to high risk
+A68825,Tony Stark,Critical Illness,Declined,Low,Underwriter_5,Completed,$12097,Pending,Yes,Standard premium
+A57017,Tony Stark,Critical Illness,Approved,Low,Underwriter_2,Not Required,$31894,Pending,Yes,Standard premium
+A17942,Clint Barton,Health,Declined,Low,Underwriter_4,Completed,$11025,Pending,No,Increased premium due to high risk
+A93295,Tony Stark,Term Life,Declined,Medium,Underwriter_3,Not Required,$33663,Rejected,No,Standard premium
+A33455,Bruce Banner,Life,Declined,Low,Underwriter_2,Completed,$32613,Rejected,Yes,Increased premium due to high risk
+A44619,Bruce Banner,Health,Pending,High,Underwriter_5,Not Required,$11053,Approved,No,Increased premium due to high risk
+A47880,Tony Stark,Critical Illness,Declined,High,Underwriter_5,Pending,$17453,Approved,No,Standard premium
+A38323,Bruce Banner,Critical Illness,Approved,Medium,Underwriter_1,Completed,$26446,Rejected,No,Increased premium due to high risk
+A51229,Steve Rogers,Health,Approved,Low,Underwriter_1,Not Required,$23539,Pending,No,Standard premium
+A21717,Steve Rogers,Life,Declined,Medium,Underwriter_3,Completed,$41643,Rejected,No,Increased premium due to high risk
+A69748,Natasha Romanoff,Term Life,Pending,Low,Underwriter_2,Completed,$36442,Rejected,Yes,Increased premium due to high risk
+A41579,Tony Stark,Critical Illness,Declined,High,Underwriter_2,Completed,$29010,Approved,Yes,Increased premium due to high risk
+A96067,Natasha Romanoff,Term Life,Pending,Medium,Underwriter_1,Pending,$5023,Approved,Yes,Standard premium
+A51757,Tony Stark,Term Life,Declined,Medium,Underwriter_3,Not Required,$40157,Rejected,Yes,Increased premium due to high risk
+A51532,Tony Stark,Health,Declined,Low,Underwriter_3,Not Required,$49915,Rejected,Yes,Standard premium
+A47062,Tony Stark,Health,Pending,High,Underwriter_1,Pending,$26819,Rejected,Yes,Standard premium
+A37742,Steve Rogers,Life,Pending,High,Underwriter_2,Pending,$23091,Pending,Yes,Increased premium due to high risk
+A72823,Bruce Banner,Health,Declined,High,Underwriter_3,Pending,$5440,Rejected,Yes,Standard premium
+A12944,Natasha Romanoff,Life,Declined,Medium,Underwriter_1,Completed,$22186,Rejected,Yes,Standard premium
+A99786,Steve Rogers,Critical Illness,Declined,Low,Underwriter_2,Pending,$29144,Pending,Yes,Standard premium
+A19241,Bruce Banner,Health,Declined,Low,Underwriter_1,Not Required,$19578,Rejected,Yes,Standard premium
+A29330,Tony Stark,Life,Approved,Low,Underwriter_4,Completed,$16911,Rejected,No,Increased premium due to high risk
+A51330,Clint Barton,Critical Illness,Pending,High,Underwriter_4,Not Required,$31480,Approved,No,Standard premium
+A18230,Steve Rogers,Health,Approved,Medium,Underwriter_2,Completed,$48576,Approved,No,Increased premium due to high risk
+A48209,Clint Barton,Life,Pending,Medium,Underwriter_2,Pending,$29061,Rejected,Yes,Standard premium
+A87639,Steve Rogers,Life,Pending,High,Underwriter_1,Completed,$31065,Approved,No,Standard premium
+A69216,Natasha Romanoff,Critical Illness,Approved,Low,Underwriter_5,Completed,$13245,Rejected,No,Standard premium
+A51330,Bruce Banner,Health,Declined,High,Underwriter_4,Not Required,$13448,Rejected,No,Standard premium
+A26956,Steve Rogers,Critical Illness,Pending,Low,Underwriter_2,Pending,$25783,Approved,No,Increased premium due to high risk
+A71181,Steve Rogers,Health,Pending,Low,Underwriter_3,Not Required,$18920,Pending,Yes,Standard premium
+A93535,Tony Stark,Life,Pending,Low,Underwriter_4,Pending,$36765,Pending,No,Increased premium due to high risk
+A19794,Tony Stark,Life,Pending,High,Underwriter_5,Pending,$31787,Rejected,Yes,Increased premium due to high risk
+A67166,Tony Stark,Term Life,Declined,Low,Underwriter_2,Completed,$13595,Pending,Yes,Standard premium
+A14338,Bruce Banner,Term Life,Approved,High,Underwriter_2,Not Required,$21969,Pending,Yes,Standard premium
+A80625,Natasha Romanoff,Life,Approved,Medium,Underwriter_2,Not Required,$11850,Pending,No,Increased premium due to high risk
+A36985,Steve Rogers,Critical Illness,Declined,Low,Underwriter_1,Completed,$44494,Approved,Yes,Standard premium
+A27343,Tony Stark,Life,Pending,Medium,Underwriter_1,Pending,$5823,Approved,No,Standard premium
+A95706,Steve Rogers,Term Life,Approved,Medium,Underwriter_1,Pending,$13169,Rejected,No,Increased premium due to high risk
+A30062,Steve Rogers,Life,Approved,High,Underwriter_4,Pending,$17850,Pending,No,Increased premium due to high risk
+A80462,Clint Barton,Life,Pending,Medium,Underwriter_2,Completed,$36417,Approved,No,Standard premium
+A63044,Natasha Romanoff,Life,Approved,High,Underwriter_1,Pending,$11059,Pending,No,Standard premium
+A85770,Steve Rogers,Health,Declined,Low,Underwriter_3,Completed,$44550,Approved,Yes,Increased premium due to high risk
+A91997,Steve Rogers,Life,Pending,Medium,Underwriter_2,Not Required,$8677,Approved,Yes,Increased premium due to high risk
+A35275,Bruce Banner,Health,Approved,High,Underwriter_4,Pending,$8356,Pending,No,Standard premium
+A93088,Bruce Banner,Critical Illness,Approved,High,Underwriter_1,Pending,$34339,Approved,No,Standard premium
+A60838,Steve Rogers,Health,Pending,High,Underwriter_3,Not Required,$17098,Approved,No,Standard premium
+A54454,Tony Stark,Life,Approved,Medium,Underwriter_2,Completed,$8808,Pending,Yes,Standard premium
+A62104,Bruce Banner,Critical Illness,Pending,Low,Underwriter_4,Pending,$17089,Rejected,No,Standard premium
+A81296,Tony Stark,Health,Pending,High,Underwriter_1,Completed,$35673,Rejected,Yes,Increased premium due to high risk
+A18580,Bruce Banner,Health,Pending,Low,Underwriter_1,Completed,$21917,Approved,No,Increased premium due to high risk
+A38502,Natasha Romanoff,Health,Approved,Low,Underwriter_3,Completed,$45328,Approved,No,Standard premium
+A61281,Steve Rogers,Life,Approved,Medium,Underwriter_5,Pending,$46087,Rejected,Yes,Standard premium
+A34824,Natasha Romanoff,Health,Pending,Low,Underwriter_1,Pending,$19358,Pending,No,Increased premium due to high risk
+A14444,Natasha Romanoff,Life,Approved,Medium,Underwriter_1,Not Required,$44945,Rejected,No,Increased premium due to high risk
+A44834,Tony Stark,Life,Declined,Low,Underwriter_1,Not Required,$18784,Approved,Yes,Increased premium due to high risk
+A65690,Clint Barton,Term Life,Approved,Medium,Underwriter_2,Pending,$49462,Pending,No,Increased premium due to high risk
+A82430,Clint Barton,Term Life,Declined,High,Underwriter_3,Completed,$6526,Pending,Yes,Standard premium
+A74435,Clint Barton,Critical Illness,Approved,Low,Underwriter_5,Completed,$45341,Rejected,No,Standard premium
+A94337,Clint Barton,Life,Pending,High,Underwriter_1,Completed,$21065,Approved,No,Standard premium
+A76893,Steve Rogers,Life,Declined,High,Underwriter_5,Completed,$45629,Pending,No,Increased premium due to high risk
