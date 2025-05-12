@@ -50,7 +50,7 @@ class RiskDistribution(BaseModel):
     segments: List[RiskSegment]
 
 # API Endpoints
-@app.get("/applicationStats", response_model=ApplicationStats)
+@app.get("/applicationstats", response_model=ApplicationStats)
 async def get_application_stats():
     # Read data from the Delta Lake applications table
     df = read_delta_table(applications_table_path)
@@ -67,7 +67,7 @@ async def get_application_stats():
         declined=declined
     )
 
-@app.get("/riskDistribution", response_model=RiskDistribution)
+@app.get("/riskdistribution", response_model=RiskDistribution)
 async def get_risk_distribution():
     # Sample predefined risk segments data
     risk_segments = [
