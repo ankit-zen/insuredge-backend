@@ -1,0 +1,8 @@
+fastapi
+deltalake       
+uvicorn         
+pandas          
+deltalake       
+pydantic        
+python-dotenv   
+pyarrow         
