@@ -14,6 +14,7 @@ WORKDIR /app
 # Copy the rest of the application code
 COPY . .
 
+COPY requirements.txt ./
 
 RUN pip install --no-cache-dir -r requirements.txt
 # Expose the port the app runs on
