@@ -203,17 +203,42 @@ async def get_new_applications():
 # -------------------------------------------------------------------
 # /avgprocessingtime
 # -------------------------------------------------------------------
+# @app.get("/avgprocessingtime", response_model=AvgProcessingTimeResponse)
+# async def get_avg_processing_time():
+#     df = read_dataset_table()
+#     df['submissionDate'] = pd.to_datetime(df['submissionDate'])
+#     df['policyStartDate'] = pd.to_datetime(df['policyStartDate'])
+#     df['processing_time'] = (df['policyStartDate'] - df['submissionDate']).dt.days
+#     avg = df['processing_time'].mean()
+#     return AvgProcessingTimeResponse(
+#         avg_processing_time=round(avg, 2),
+#         period=datetime.now().strftime("%b %Y")
+#     )
+
 @app.get("/avgprocessingtime", response_model=AvgProcessingTimeResponse)
 async def get_avg_processing_time():
     df = read_dataset_table()
-    df['submissionDate'] = pd.to_datetime(df['submissionDate'])
-    df['policyStartDate'] = pd.to_datetime(df['policyStartDate'])
+    df['submissionDate'] = pd.to_datetime(df['submissionDate'], errors='coerce')
+    df['policyStartDate'] = pd.to_datetime(df['policyStartDate'], errors='coerce')
+
+    # compute and filter
     df['processing_time'] = (df['policyStartDate'] - df['submissionDate']).dt.days
+    df = df[df['processing_time'] >= 0]
+
+    if df.empty:
+        raise HTTPException(status_code=404, detail="No valid processing times to average")
+
     avg = df['processing_time'].mean()
+
+    # derive period from the latest submission
+    last = df['submissionDate'].max()
+    period = last.strftime("%b %Y") if not pd.isna(last) else datetime.now().strftime("%b %Y")
+
     return AvgProcessingTimeResponse(
         avg_processing_time=round(avg, 2),
-        period=datetime.now().strftime("%b %Y")
+        period=period
     )
+
 
 # -------------------------------------------------------------------
 # /approvalrate
@@ -229,46 +254,57 @@ async def get_approval_rate():
 # -------------------------------------------------------------------
 # /underwritingdecisions
 # -------------------------------------------------------------------
+
 @app.get("/underwritingdecisions", response_model=List[UnderwritingDecision])
 async def get_underwriting_decisions():
+    """
+    Fetches real underwriting decision data, broken out by month, 
+    with raw counts for Approved, Declined, and Pending.
+    """
     try:
+        # Read unified dataset
         df = read_dataset_table()
+        # Parse submission month
         df['date'] = pd.to_datetime(df['submissionDate'], errors='coerce')
         df['month'] = df['date'].dt.strftime('%b')
-        grouped = df.groupby(['month', 'underwritingStatus']).size().reset_index(name='count')
+        
+        # Group by month & status
+        grouped = (
+            df
+            .dropna(subset=['month', 'underwritingStatus'])
+            .groupby(['month', 'underwritingStatus'])
+            .size()
+            .reset_index(name='count')
+        )
 
-        order = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
-        months = sorted(grouped['month'].unique(), key=lambda m: order.index(m) if m in order else -1)
+        # Sort months by calendar order
+        order = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec']
+        months = sorted(
+            grouped['month'].unique(),
+            key=lambda m: order.index(m) if m in order else float('inf')
+        )
 
         result: List[UnderwritingDecision] = []
         for m in months:
-            slice_ = grouped[grouped['month'] == m]
+            month_df = grouped[grouped['month'] == m]
             data = {"month": m, "approved": 0, "declined": 0, "pending": 0}
-            for _, r in slice_.iterrows():
-                status, count = r['underwritingStatus'], r['count']
+            for _, row in month_df.iterrows():
+                status = row['underwritingStatus']
+                cnt = int(row['count'])
                 if status == 'Approved':
-                    data['approved'] = count
-                elif status in ('Rejected', 'Declined'):
-                    data['declined'] = count
+                    data['approved'] = cnt
+                elif status in ('Rejected','Declined'):
+                    data['declined'] = cnt
                 elif status == 'Pending':
-                    data['pending'] = count
-            for k in ('approved', 'declined', 'pending'):
-                data[k] = round(data[k] / 70)
+                    data['pending'] = cnt
             result.append(UnderwritingDecision(**data))
 
         return result
+
     except Exception as e:
-        logging.error(e)
+        logging.error("Error in /underwritingdecisions: %s", e)
         raise HTTPException(status_code=500, detail=str(e))
 
-# -------------------------------------------------------------------
-# /coverageTypeDistribution
-# -------------------------------------------------------------------
-@app.get("/coverageTypeDistribution", response_model=List[CoverageCount])
-async def get_coverage_type_distribution():
-    df = read_dataset_table()
-    counts = df['coverageType'].value_counts().to_dict()
-    return [CoverageCount(name=k, count=v) for k, v in counts.items()]
 
 # -------------------------------------------------------------------
 # /policydistribution
@@ -314,68 +350,73 @@ async def get_policy_distribution():
 # /riskfactors
 # -------------------------------------------------------------------
 
+
 @app.get("/riskfactors", response_model=List[RiskFactorDetail])
 async def get_risk_factors():
-    """
-    Aggregates risk factors across all applications,
-    returning each factor with occurrence count and predominant risk level.
-    """
-    df = read_dataset_table()
-    required = ['riskFactors', 'riskScore', 'riskAssessment']
-    missing = [c for c in required if c not in df.columns]
-    if missing:
-        raise HTTPException(status_code=400, detail=f"Missing required columns: {missing}")
+    df = read_dataset_table().dropna(subset=['riskFactors','riskScore'])
+    # 1) compute mean raw score per factor
+    grouped = (
+        df
+        .groupby('riskFactors')
+        .agg(mean_raw=('riskScore','mean'))
+        .reset_index()
+    )
 
-    # Drop rows missing any required fields
-    sub = df.dropna(subset=required)
-    # Group by factor: count occurrences, most common assessment
-    grouped = sub.groupby('riskFactors').agg(
-        count=('riskFactors', 'size'),
-        mode_risk=('riskAssessment', lambda x: x.mode().iloc[0] if not x.mode().empty else '')
-    ).reset_index()
+    # 2) min–max normalize
+    lo, hi = grouped['mean_raw'].min(), grouped['mean_raw'].max()
+    span = hi - lo or 1
+    grouped['score'] = ((grouped['mean_raw'] - lo) / span * 100).round().astype(int)
 
-    result: List[RiskFactorDetail] = []
+    # 3) map back to Low/Med/High
+    def to_label(s:int):
+        if s < 33: return "Low Risk"
+        if s < 66: return "Medium Risk"
+        return "High Risk"
+
+    result = []
     for _, row in grouped.iterrows():
-        name = row['riskFactors']
-        score = int(row['count'])
-        risk = f"{row['mode_risk'].title()} Risk"
-        result.append(RiskFactorDetail(name=name, score=score, risk=risk))
+        result.append(RiskFactorDetail(
+            name=row['riskFactors'],
+            score=row['score'],
+            risk=to_label(row['score'])
+        ))
     return result
+
 
 # -------------------------------------------------------------------
 # /agevsrisk
 # -------------------------------------------------------------------
-# Allow passing riskScore by its JSON name
- 
+
+
+from typing import Dict, List, Optional
+from fastapi import HTTPException
+from pydantic import BaseModel
+import pandas as pd
+
+class AgeRisk(BaseModel):
+    age: int
+    risk: int
+
 @app.get(
     "/agevsrisk",
     response_model=Dict[str, List[AgeRisk]]
 )
 async def get_age_vs_risk():
-    """
-    Returns a dict of age vs numeric riskScore points, grouped by policy type:
-    {
-      "termLife": [...],
-      "wholeLife": [...],
-      "annuity": [...]
-    }
-    """
     df = read_dataset_table()
 
-    # Ensure we have the right columns
+    # 1) validate columns exist
     required = ["coverageType", "age", "riskScore"]
     missing = [c for c in required if c not in df.columns]
     if missing:
         raise HTTPException(status_code=400, detail=f"Missing required columns: {missing}")
 
+    # 2) drop rows where those are null
     sub = df.dropna(subset=required)
 
-    buckets: Dict[str, List[AgeRisk]] = {
-        "termLife": [],
-        "wholeLife": [],
-        "annuity": []
-    }
+    # 3) prepare our three buckets
+    buckets: Dict[str, List[AgeRisk]] = {"termLife": [], "wholeLife": [], "annuity": []}
 
+    # 4) map coverageType → bucket key
     def key_for(ct: str) -> Optional[str]:
         if ct == "Term Life":
             return "termLife"
@@ -385,19 +426,19 @@ async def get_age_vs_risk():
             return "annuity"
         return None
 
+    # 5) iterate and append
     for _, row in sub.iterrows():
         bucket = key_for(row["coverageType"])
         if not bucket:
             continue
-
         try:
-            age = int(row["age"])
-            score = int(row["riskScore"])
+            age   = int(row["age"])
+            risk  = int(row["riskScore"])
         except (ValueError, TypeError):
             continue
+        buckets[bucket].append(AgeRisk(age=age, risk=risk))
 
-        buckets[bucket].append(AgeRisk(age=age, riskScore=score))
-
+    # 6) fail if completely empty
     if not any(buckets.values()):
         raise HTTPException(status_code=404, detail="No age-vs-risk data found")
 
