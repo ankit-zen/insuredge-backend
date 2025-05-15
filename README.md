@@ -1,9 +1,6 @@
 # insuredge-backend
 
 
-## to run the app.py
-
-
-uvicorn app:app --reload
+## to run the main.py
 
 uvicorn main:app --reload
