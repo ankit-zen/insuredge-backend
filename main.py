@@ -3,7 +3,7 @@ import logging
 import random
 from datetime import datetime
 from typing import List, Dict, Union, Optional
-
+from typing import Literal, List, Dict
 import pandas as pd
 from deltalake import DeltaTable
 from fastapi import FastAPI, HTTPException
@@ -81,9 +81,22 @@ class NewApplicationsResponse(BaseModel):
     percentage_change: float
     period: str
 
-class AvgProcessingTimeResponse(BaseModel):
-    avg_processing_time: float
-    period: str
+
+
+class Trend(BaseModel):
+    value: str
+    label: str
+    direction: Literal["up", "down"]
+
+class Metric(BaseModel):
+    value: str
+    trend: Trend
+class DashboardResponse(BaseModel):
+    newApplications: Metric
+    processingTime: Metric
+    approvalRate: Metric
+    pendingReviews: Metric
+
 
 class UnderwritingDecision(BaseModel):
     month: str
@@ -104,6 +117,7 @@ class RiskFactorDetail(BaseModel):
     name: str
     score: int
     risk: str
+    
 class AgeRisk(BaseModel):
     age: int
     #riskAssessment: Union[str, int]
@@ -182,74 +196,103 @@ async def get_applications():
 
 
 # -------------------------------------------------------------------
-# /newapplications
+# /KPI
 # -------------------------------------------------------------------
-@app.get("/newapplications", response_model=NewApplicationsResponse)
-async def get_new_applications():
+
+
+
+@app.get("/kpi", response_model=DashboardResponse)
+async def get_kpi():
     df = read_dataset_table()
-    df['date'] = pd.to_datetime(df['submissionDate'])
     now = datetime.now()
-    current = df[df['date'].dt.month == now.month]
-    previous = df[df['date'].dt.month == now.month - 1]
-    curr_cnt = len(current)
-    prev_cnt = len(previous)
-    pct = ((curr_cnt - prev_cnt) / prev_cnt * 100) if prev_cnt else 0
-    return NewApplicationsResponse(
-        total_applications=curr_cnt,
-        percentage_change=round(pct, 2),
-        period=now.strftime("%b %Y")
+
+    # parse dates
+    df["submissionDate"] = pd.to_datetime(df["submissionDate"], errors="coerce")
+    df["policyStartDate"] = pd.to_datetime(df["policyStartDate"], errors="coerce")
+
+    this_month = now.month
+    prev_month = this_month - 1 or 12
+
+    # New Applications
+    curr_new = df[df["submissionDate"].dt.month == this_month].shape[0]
+    prev_new = df[df["submissionDate"].dt.month == prev_month].shape[0] or 1
+    delta_new = curr_new - prev_new
+    pct_new   = round(delta_new / prev_new * 100)
+    new_metric = Metric(
+        value=str(curr_new),
+        trend=Trend(
+            value=f"{pct_new:+d}%",
+            label="vs previous period",
+            direction="up" if pct_new >= 0 else "down"
+        )
     )
 
-# -------------------------------------------------------------------
-# /avgprocessingtime
-# -------------------------------------------------------------------
-# @app.get("/avgprocessingtime", response_model=AvgProcessingTimeResponse)
-# async def get_avg_processing_time():
-#     df = read_dataset_table()
-#     df['submissionDate'] = pd.to_datetime(df['submissionDate'])
-#     df['policyStartDate'] = pd.to_datetime(df['policyStartDate'])
-#     df['processing_time'] = (df['policyStartDate'] - df['submissionDate']).dt.days
-#     avg = df['processing_time'].mean()
-#     return AvgProcessingTimeResponse(
-#         avg_processing_time=round(avg, 2),
-#         period=datetime.now().strftime("%b %Y")
-#     )
+    # Avg Processing Time
+    df["proc_days"] = (
+        df["policyStartDate"] - df["submissionDate"]
+    ).dt.days.clip(lower=0)
 
-@app.get("/avgprocessingtime", response_model=AvgProcessingTimeResponse)
-async def get_avg_processing_time():
-    df = read_dataset_table()
-    df['submissionDate'] = pd.to_datetime(df['submissionDate'], errors='coerce')
-    df['policyStartDate'] = pd.to_datetime(df['policyStartDate'], errors='coerce')
+    # current vs previous month averages
+    curr_avg = df[df["submissionDate"].dt.month == this_month]["proc_days"].mean() or 0
+    prev_avg = df[df["submissionDate"].dt.month == prev_month]["proc_days"].mean() or curr_avg or 1
 
-    # compute and filter
-    df['processing_time'] = (df['policyStartDate'] - df['submissionDate']).dt.days
-    df = df[df['processing_time'] >= 0]
+    # absolute change in days
+    delta_avg = curr_avg - prev_avg
 
-    if df.empty:
-        raise HTTPException(status_code=404, detail="No valid processing times to average")
+    # build the Metric using absolute days rather than a wild percentage
+    trend_value     = f"{delta_avg:+.1f} days"
+    trend_direction = "up" if delta_avg >= 0 else "down"
 
-    avg = df['processing_time'].mean()
+    proc_metric = Metric(
+        value=f"{round(curr_avg, 1)} days",
+        trend=Trend(
+            value=trend_value,
+            label="since previous period",
+            direction=trend_direction
+        )
+    )
 
-    # derive period from the latest submission
-    last = df['submissionDate'].max()
-    period = last.strftime("%b %Y") if not pd.isna(last) else datetime.now().strftime("%b %Y")
+    # Approval Rate
+    approved_total = df[df["underwritingStatus"] == "Approved"].shape[0]
+    total_apps     = df.shape[0] or 1
+    curr_rate = round(approved_total / total_apps * 100, 1)
+    df_prev = df[df["submissionDate"].dt.month == prev_month]
+    prev_rate = round(
+        df_prev[df_prev["underwritingStatus"] == "Approved"].shape[0] /
+        (df_prev.shape[0] or 1) * 100, 1
+    )
+    delta_rate = curr_rate - prev_rate
+    appr_metric = Metric(
+        value=f"{curr_rate}%",
+        trend=Trend(
+            value=f"{delta_rate:+.1f}%",
+            label="vs previous period",
+            direction="up" if delta_rate >= 0 else "down"
+        )
+    )
 
-    return AvgProcessingTimeResponse(
-        avg_processing_time=round(avg, 2),
-        period=period
+    # Pending Reviews
+    pend_curr = df[df["underwritingStatus"] == "Needs info"].shape[0]
+    pend_prev = df_prev[df_prev["underwritingStatus"] == "Needs info"].shape[0] or 1
+    delta_pend = pend_curr - pend_prev
+    pct_pend   = round(delta_pend / pend_prev * 100)
+    pend_metric = Metric(
+        value=str(pend_curr),
+        trend=Trend(
+            value=f"{pct_pend:+d}%",
+            label="urgent cases require attention",
+            direction="up" if pct_pend >= 0 else "down"
+        )
+    )
+
+    return DashboardResponse(
+        newApplications=new_metric,
+        processingTime=proc_metric,
+        approvalRate=appr_metric,
+        pendingReviews=pend_metric
     )
 
 
-# -------------------------------------------------------------------
-# /approvalrate
-# -------------------------------------------------------------------
-@app.get("/approvalrate", response_model=float)
-async def get_approval_rate():
-    df = read_dataset_table()
-    approved = len(df[df['underwritingStatus'] == "Approved"])
-    total = len(df)
-    rate = (approved / total * 100) if total else 0
-    return round(rate, 2)
 
 # -------------------------------------------------------------------
 # /underwritingdecisions
